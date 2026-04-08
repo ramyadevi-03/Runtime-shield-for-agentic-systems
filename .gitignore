@@ -4,3 +4,22 @@ venv/
 *.log
 dist/
 keycloak_data/
+
+# Ignore DB data
+spire-db-data/
+
+# Ignore certs
+spiffe-certs/
+
+# Ignore local configs
+.vscode/
+
+# Ignore temp/debug
+*.log
+gitlog.txt
+debug-auth.js
+test-bridge.js
+login.py
+
+bridge.log
+*.log

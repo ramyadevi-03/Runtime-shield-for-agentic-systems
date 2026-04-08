@@ -1,3 +1,5 @@
+version: "3.8"
+
 services:
 
   keycloak:
@@ -28,7 +30,7 @@ services:
       - "8443:8443"
     volumes:
       - ./envoy.yaml:/etc/envoy/envoy.yaml:ro
-      - spire-agent-data:/run/spire/sockets:ro
+      - spire-agent-socket:/run/spire/sockets:ro
     depends_on:
       - keycloak
       - spire-agent
@@ -42,8 +44,14 @@ services:
       POSTGRES_PASSWORD: postgres
       POSTGRES_DB: spire
     volumes:
-      - ./spire-db-data:/var/lib/postgresql/data
+      - spire-db-data:/var/lib/postgresql/data
     restart: always
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d spire"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
 
   spire-server:
     container_name: spire-server
@@ -57,7 +65,8 @@ services:
     ports:
       - "8081:8081"
     depends_on:
-      - spire-db
+      spire-db:
+        condition: service_healthy
     restart: always
 
   spire-agent:
@@ -69,11 +78,28 @@ services:
     volumes:
       - ./spire/agent:/run/spire/config
       - spire-agent-data:/opt/spire/data
-      - /var/run/docker.sock:/var/run/docker.sock
+      - spire-agent-socket:/tmp/spire-agent
+      - /var/run/docker.sock:/var/run/docker.sock   # 🔥 CRITICAL FIX
     depends_on:
       - spire-server
     restart: always
 
+  spiffe-helper:
+    container_name: spiffe-helper
+    image: alpine:3.19
+    entrypoint: ["/bin/sh", "/spiffe-helper.sh"]
+    volumes:
+      - ./spiffe-helper.sh:/spiffe-helper.sh:ro
+      - spire-agent-socket:/tmp/spire-agent
+      - ./spiffe-certs:/spiffe-certs
+      - ./spiffe-helper-bin:/usr/local/bin/spire-agent:ro
+    depends_on:
+      - spire-agent
+    restart: always
+    network_mode: "host"
+
 volumes:
   spire-server-data:
   spire-agent-data:
+  spire-db-data:
+  spire-agent-socket:

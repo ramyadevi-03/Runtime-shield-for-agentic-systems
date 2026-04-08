@@ -6,7 +6,6 @@ import argparse
 import threading
 import json
 import time
-from mcp_firewall.sdk import Gateway
 from mcp_firewall.dashboard.server import start_dashboard
 from mcp_firewall.dashboard.app import state as dashboard_state
 from dotenv import load_dotenv
@@ -25,7 +24,7 @@ LOG_PATH = os.path.join(PROJECT_DIR, "bridge.log")
 def log(msg: str):
     with open(LOG_PATH, "a", encoding="utf-8") as f:
         f.write(f"[{time.strftime('%H:%M:%S')}] {msg}\n")
-    print(msg, file=sys.stderr, flush=True)
+    # ❌ DO NOT print to stdout or stderr during MCP — it breaks the JSON stream
 
 
 # Initialize log session
@@ -87,12 +86,21 @@ def role_allowed(tool_name, user_role):
 # =========================
 
 def get_spiffe_config():
+    svid_path = os.getenv("SPIFFE_SVID_PATH", "")
+    bundle_path = os.getenv("SPIFFE_BUNDLE_PATH", "")
+
+    # Resolve relative paths against project directory
+    if svid_path and not os.path.isabs(svid_path):
+        svid_path = os.path.join(PROJECT_DIR, svid_path)
+    if bundle_path and not os.path.isabs(bundle_path):
+        bundle_path = os.path.join(PROJECT_DIR, bundle_path)
+
     return {
         "enabled": os.getenv("SPIFFE_ENABLED", "false").lower() == "true",
         "bridge_id": os.getenv("SPIFFE_BRIDGE_ID", "spiffe://runtime-shield/bridge"),
         "server_id": os.getenv("SPIFFE_SERVER_ID", "spiffe://runtime-shield/keycloak-mcp"),
-        "svid_path": os.getenv("SPIFFE_SVID_PATH", ""),
-        "bundle_path": os.getenv("SPIFFE_BUNDLE_PATH", "")
+        "svid_path": svid_path,
+        "bundle_path": bundle_path
     }
 
 
@@ -148,15 +156,14 @@ def get_allowed_spiffe_ids():
         "ALLOWED_SPIFFE_IDS",
         "spiffe://runtime-shield/agent,spiffe://runtime-shield/dashboard,spiffe://runtime-shield/bridge"
     ).strip()
-    
+
     # Handle both comma-separated and JSON array formats
     if allowed_ids_str.startswith("["):
         try:
-            import json
             return set(json.loads(allowed_ids_str))
         except Exception:
             pass
-    
+
     # Comma-separated format
     return set(id_.strip() for id_ in allowed_ids_str.split(",") if id_.strip())
 
@@ -210,21 +217,16 @@ def main():
             sys.exit(1)
 
     log(f"ENV CHECK → RUNTIME_ROLE = {os.getenv('RUNTIME_ROLE')}")
+    log(f"ENV CHECK → SPIFFE_ENABLED = {os.getenv('SPIFFE_ENABLED')}")
     log(f"Starting Secure Bridge. Python: {sys.executable}")
     log(f"🔐 Default runtime role: {DEFAULT_ROLE}")
+    log("✅ Bridge initialized (firewall disabled)")
 
     try:
-        gw = Gateway(config_path=CONFIG_PATH)
-        log("✅ Security Gateway initialized")
-    except Exception as e:
-        log(f"❌ Gateway init failed: {e}")
-        sys.exit(1)
-
-    try:
-        start_dashboard()
+        start_dashboard(host="127.0.0.1", port=9090)
         log("📊 Dashboard active at http://127.0.0.1:9090")
     except Exception as e:
-        log(f"⚠️ Dashboard failed to start: {e}")
+        log(f"⚠️ Dashboard failed to start (port may be in use): {e}")
 
     add_spiffe_dashboard_event(spiffe_cfg)
 
@@ -241,12 +243,22 @@ def main():
     })
 
     child_env = os.environ.copy()
-    child_env["SPIFFE_ENABLED"] = "true" if spiffe_cfg["enabled"] else "false"
+    child_env["SPIFFE_ENABLED"] = "false"  # Node handles no SPIFFE — bridge does it
     child_env["SPIFFE_BRIDGE_ID"] = spiffe_cfg["bridge_id"]
     child_env["SPIFFE_EXPECTED_SERVER_ID"] = spiffe_cfg["server_id"]
-    child_env["SPIFFE_SVID_PATH"] = spiffe_cfg["svid_path"]
-    child_env["SPIFFE_BUNDLE_PATH"] = spiffe_cfg["bundle_path"]
     child_env["RUNTIME_ROLE"] = DEFAULT_ROLE
+
+    # Free ports 9090 and 9100 if still bound from previous session
+    try:
+        result = subprocess.run(["netstat", "-ano"], capture_output=True, text=True)
+        for line in result.stdout.splitlines():
+            for port in [":9090", ":9100"]:
+                if port in line and "LISTENING" in line:
+                    pid = line.strip().split()[-1]
+                    subprocess.run(["taskkill", "/F", "/PID", pid], capture_output=True)
+                    log(f"🧹 Freed port {port} (PID {pid})")
+    except Exception:
+        pass
 
     node_proc = subprocess.Popen(
         server_cmd,
@@ -256,7 +268,8 @@ def main():
         stderr=subprocess.PIPE,
         text=True,
         encoding="utf-8",
-        bufsize=1,
+        errors="replace",  # prevent charmap crashes on emoji/unicode
+        bufsize=0,  # 🔥 IMPORTANT: disable buffering for real-time streaming
         env=child_env
     )
 
@@ -361,39 +374,16 @@ def main():
 
                         log(f"✅ Role allowed: {user_role} can use {tool_name}")
 
-                        # FIREWALL CHECK
-                        decision = gw.check(tool_name, args, agent="claude-desktop")
-
+                        # FIREWALL CHECK (DISABLED)
                         dashboard_state.add_event({
-                            "action": decision.action,
+                            "action": "allow",
                             "tool": tool_name,
                             "agent": "claude-desktop",
-                            "reason": decision.reason,
-                            "severity": decision.severity,
-                            "stage": decision.stage,
+                            "reason": "Firewall disabled - tool allowed",
+                            "severity": "low",
+                            "stage": "role-policy",
                             "timestamp": time.time()
                         })
-
-                        if decision.blocked:
-                            log(f"🚫 Blocked: {decision.reason}")
-
-                            error_resp = {
-                                "jsonrpc": "2.0",
-                                "id": data.get("id"),
-                                "error": {
-                                    "code": -32000,
-                                    "message": "Tool execution blocked by security policy",
-                                    "data": {
-                                        "reason": decision.reason,
-                                        "severity": decision.severity,
-                                        "stage": decision.stage
-                                    }
-                                }
-                            }
-
-                            sys.stdout.write(json.dumps(error_resp) + "\n")
-                            sys.stdout.flush()
-                            continue
 
                         params["arguments"] = args
                         data["params"] = params
@@ -423,41 +413,33 @@ def main():
             if node_proc.stdout is None:
                 raise RuntimeError("Node stdout is not available")
 
-            for line in node_proc.stdout:
-                line_str = line
+            while True:
+                line = node_proc.stdout.readline()
 
-                if not line_str.strip():
+                if not line:
+                    break
+
+                stripped = line.strip()
+                if not stripped:
                     continue
 
-                log(f"📤 Outgoing MCP message from node: {line_str.strip()[:200]}")
+                # Forward all non-empty lines — Node MCP uses single-line JSON
+                # Only discard lines that are clearly log messages (start with common log patterns)
+                is_log_line = (
+                    stripped.startswith("[") and "INFO" in stripped or
+                    stripped.startswith("[") and "ERROR" in stripped or
+                    stripped.startswith("[") and "WARN" in stripped or
+                    stripped.startswith("[Metrics]") or
+                    stripped.startswith("[2026") or
+                    stripped.startswith("KEYCLOAK_") or
+                    stripped.startswith("SPIFFE_")
+                )
 
-                try:
-                    redacted_result = gw.scan_response(line_str)
-
-                    if redacted_result.modified:
-                        log("✂️ FIREWALL REDACTED sensitive data")
-
-                        for finding in redacted_result.findings:
-                            dashboard_state.add_event({
-                                "action": "redact",
-                                "tool": "(response)",
-                                "agent": "claude-desktop",
-                                "reason": finding.get("reason", "Sensitive data"),
-                                "severity": finding.get("severity", "medium"),
-                                "stage": "output-filter",
-                                "timestamp": time.time()
-                            })
-
-                        line_str = redacted_result.content
-
-                        if not line_str.endswith("\n"):
-                            line_str += "\n"
-
-                except Exception as e:
-                    log(f"⚠️ Redaction error: {e}")
-
-                sys.stdout.write(line_str)
-                sys.stdout.flush()
+                if is_log_line:
+                    log(f"🗑️ Discarded non-JSON Node stdout: {stripped[:200]}")
+                else:
+                    sys.stdout.write(line)
+                    sys.stdout.flush()
 
         except Exception as e:
             log(f"Output thread error: {e}")
@@ -508,8 +490,23 @@ def main():
 
     log("⌛ Bridge active and relaying...")
 
-    node_proc.wait()
-    log(f"🏁 Server exited with code {node_proc.returncode}")
+    # =========================
+    # KEEP PROCESS ALIVE
+    # =========================
+    try:
+        log("✅ Bridge running... waiting for MCP requests")
+        while True:
+            time.sleep(1)
+            # If node dies, log it and exit so Claude Desktop can restart cleanly
+            if node_proc.poll() is not None:
+                log(f"💀 Node process exited with code {node_proc.returncode}. Bridge shutting down.")
+                break
+    except KeyboardInterrupt:
+        log("🛑 Shutting down bridge...")
+        try:
+            node_proc.terminate()
+        except:
+            pass
 
 
 if __name__ == "__main__":

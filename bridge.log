@@ -2950,3 +2950,1807 @@
 [21:08:33] ⌛ Bridge active and relaying...
 [21:08:33] 🟥 Node stderr: Keycloak MCP Server running on stdio
 [22:12:12] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-03-31 18:31:21 ---
+[18:31:21] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[18:31:21] ENV CHECK → RUNTIME_ROLE = admin
+[18:31:21] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[18:31:21] 🔐 Default runtime role: admin
+[18:31:21] ✅ Security Gateway initialized
+[18:31:21] 📊 Dashboard active at http://127.0.0.1:9090
+[18:31:21] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[18:31:21] ⌛ Bridge active and relaying...
+[18:31:21] 🟥 Node stderr: node:internal/modules/cjs/loader:1451
+[18:31:21] 🟥 Node stderr: throw err;
+[18:31:21] 🟥 Node stderr: ^
+[18:31:21] 🟥 Node stderr: Error: Cannot find module 'C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js'
+[18:31:21] 🟥 Node stderr: at Module._resolveFilename (node:internal/modules/cjs/loader:1448:15)
+[18:31:21] 🟥 Node stderr: at defaultResolveImpl (node:internal/modules/cjs/loader:1059:19)
+[18:31:21] 🟥 Node stderr: at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1064:22)
+[18:31:21] 🟥 Node stderr: at Module._load (node:internal/modules/cjs/loader:1234:25)
+[18:31:21] 🟥 Node stderr: at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+[18:31:21] 🟥 Node stderr: at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+[18:31:21] 🟥 Node stderr: at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+[18:31:21] 🏁 Server exited with code 1
+al/main/run_main_module:33:47 {
+
+--- Secure Bridge Session Start: 2026-03-31 18:43:42 ---
+[18:43:42] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[18:43:42] ENV CHECK → RUNTIME_ROLE = admin
+[18:43:42] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[18:43:42] 🔐 Default runtime role: admin
+[18:43:42] ✅ Security Gateway initialized
+[18:43:42] 📊 Dashboard active at http://127.0.0.1:9090
+[18:43:42] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[18:43:42] ⌛ Bridge active and relaying...
+[18:43:43] 📤 Outgoing MCP message from node: [2026-03-31 18:43:43.597 +0530] [32mINFO[39m (7840): [36m[SPIFFE] Initializing SPIFFE Auth with endpoint: unix:///tmp/spire-agent/public/api.sock[39m
+[18:43:43] 📤 Outgoing MCP message from node: [2026-03-31 18:43:43.598 +0530] [31mERROR[39m (7840): [36m[SPIFFE] CRITICAL: SPIRE Agent socket not found at /tmp/spire-agent/public/api.sock. The MCP server will fail to verify identities.[39m
+[18:43:43] 📤 Outgoing MCP message from node: [2026-03-31 18:43:43.599 +0530] [31mERROR[39m (7840): [36mFatal error in main(): SPIFFE socket not found: /tmp/spire-agent/public/api.sock[39m
+[18:43:43] 🏁 Server exited with code 1
+
+--- Secure Bridge Session Start: 2026-03-31 18:48:49 ---
+[18:48:49] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[18:48:49] ENV CHECK → RUNTIME_ROLE = admin
+[18:48:49] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[18:48:49] 🔐 Default runtime role: admin
+[18:48:49] ✅ Security Gateway initialized
+[18:48:49] 📊 Dashboard active at http://127.0.0.1:9090
+[18:48:49] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[18:48:49] ⌛ Bridge active and relaying...
+[18:48:50] 📤 Outgoing MCP message from node: [2026-03-31 18:48:50.563 +0530] [32mINFO[39m (5856): [36m[SPIFFE] Initializing SPIFFE Auth with endpoint: unix:///tmp/spire-agent/public/api.sock[39m
+[18:48:50] 📤 Outgoing MCP message from node: [2026-03-31 18:48:50.564 +0530] [31mERROR[39m (5856): [36m[SPIFFE] CRITICAL: SPIRE Agent socket not found at /tmp/spire-agent/public/api.sock. The MCP server will fail to verify identities.[39m
+[18:48:50] 📤 Outgoing MCP message from node: [2026-03-31 18:48:50.565 +0530] [31mERROR[39m (5856): [36mFatal error in main(): SPIFFE socket not found: /tmp/spire-agent/public/api.sock[39m
+[18:48:50] 🏁 Server exited with code 1
+
+--- Secure Bridge Session Start: 2026-03-31 18:55:40 ---
+[18:55:40] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[18:55:40] ENV CHECK → RUNTIME_ROLE = admin
+[18:55:40] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[18:55:40] 🔐 Default runtime role: admin
+[18:55:40] ✅ Security Gateway initialized
+[18:55:40] 📊 Dashboard active at http://127.0.0.1:9090
+[18:55:40] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[18:55:40] ⌛ Bridge active and relaying...
+[18:55:41] 📤 Outgoing MCP message from node: [2026-03-31 18:55:41.581 +0530] [32mINFO[39m (27660): [36m⚠️ SPIFFE disabled — running in dev mode[39m
+[18:55:41] 📤 Outgoing MCP message from node: [2026-03-31 18:55:41.594 +0530] [32mINFO[39m (27660): [36m[Metrics] Prometheus scrape endpoint started on http://127.0.0.1:9091/metrics[39m
+[18:55:41] 📤 Outgoing MCP message from node: [2026-03-31 18:55:41.594 +0530] [32mINFO[39m (27660): [36m🚀 Keycloak MCP Server running on stdio[39m
+[19:09:43] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-03-31 19:09:48 ---
+[19:09:48] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[19:09:48] ENV CHECK → RUNTIME_ROLE = admin
+[19:09:48] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[19:09:48] 🔐 Default runtime role: admin
+[19:09:48] ✅ Security Gateway initialized
+[19:09:48] 📊 Dashboard active at http://127.0.0.1:9090
+[19:09:48] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[19:09:48] ⌛ Bridge active and relaying...
+[19:09:49] 📤 Outgoing MCP message from node: [2026-03-31 19:09:49.297 +0530] [32mINFO[39m (20164): [36m⚠️ SPIFFE disabled — running in dev mode[39m
+[19:09:49] 📤 Outgoing MCP message from node: [2026-03-31 19:09:49.309 +0530] [32mINFO[39m (20164): [36m[Metrics] Prometheus scrape endpoint started on http://127.0.0.1:9091/metrics[39m
+[19:09:49] 📤 Outgoing MCP message from node: [2026-03-31 19:09:49.309 +0530] [32mINFO[39m (20164): [36m🚀 Keycloak MCP Server running on stdio[39m
+
+--- Secure Bridge Session Start: 2026-03-31 19:31:19 ---
+[19:31:19] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[19:31:19] ENV CHECK → RUNTIME_ROLE = admin
+[19:31:19] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[19:31:19] 🔐 Default runtime role: admin
+[19:31:19] ✅ Security Gateway initialized
+[19:31:19] 📊 Dashboard active at http://127.0.0.1:9090
+[19:31:19] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[19:31:19] ⌛ Bridge active and relaying...
+[19:31:20] 📤 Outgoing MCP message from node: [2026-03-31 19:31:19.944 +0530] [32mINFO[39m (3196): [36m⚠️ SPIFFE disabled — running in dev mode[39m
+[19:31:20] 📤 Outgoing MCP message from node: [2026-03-31 19:31:19.960 +0530] [32mINFO[39m (3196): [36m[Metrics] Prometheus scrape endpoint started on http://127.0.0.1:9091/metrics[39m
+[19:31:20] 📤 Outgoing MCP message from node: [2026-03-31 19:31:19.961 +0530] [32mINFO[39m (3196): [36m🚀 Keycloak MCP Server running on stdio[39m
+[19:45:50] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-03-31 19:46:09 ---
+[19:46:09] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[19:46:09] ENV CHECK → RUNTIME_ROLE = admin
+[19:46:09] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[19:46:09] 🔐 Default runtime role: admin
+[19:46:09] ✅ Security Gateway initialized
+[19:46:09] 📊 Dashboard active at http://127.0.0.1:9090
+[19:46:09] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[19:46:09] ⌛ Bridge active and relaying...
+[19:46:09] 📤 Outgoing MCP message from node: [2026-03-31 19:46:09.772 +0530] [32mINFO[39m (17120): [36m⚠️ SPIFFE disabled — running in dev mode[39m
+[19:46:09] 📤 Outgoing MCP message from node: [2026-03-31 19:46:09.783 +0530] [32mINFO[39m (17120): [36m[Metrics] Prometheus scrape endpoint started on http://127.0.0.1:9091/metrics[39m
+[19:46:09] 📤 Outgoing MCP message from node: [2026-03-31 19:46:09.784 +0530] [32mINFO[39m (17120): [36m🚀 Keycloak MCP Server running on stdio[39m
+[19:52:05] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-03-31 19:56:10 ---
+[19:56:10] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[19:56:10] ENV CHECK → RUNTIME_ROLE = admin
+[19:56:10] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[19:56:10] 🔐 Default runtime role: admin
+[19:56:10] ✅ Security Gateway initialized
+[19:56:10] 📊 Dashboard active at http://127.0.0.1:9090
+[19:56:10] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[19:56:10] ⌛ Bridge active and relaying...
+[19:56:11] 📤 Outgoing MCP message from node: [2026-03-31 19:56:11.018 +0530] [32mINFO[39m (9508): [36m⚠️ SPIFFE disabled — running in dev mode[39m
+[19:56:11] 📤 Outgoing MCP message from node: [2026-03-31 19:56:11.026 +0530] [32mINFO[39m (9508): [36m[Metrics] Prometheus scrape endpoint started on http://127.0.0.1:9091/metrics[39m
+[19:56:11] 📤 Outgoing MCP message from node: [2026-03-31 19:56:11.026 +0530] [32mINFO[39m (9508): [36m🚀 Keycloak MCP Server running on stdio[39m
+
+--- Secure Bridge Session Start: 2026-03-31 20:15:48 ---
+[20:15:48] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[20:15:48] ENV CHECK → RUNTIME_ROLE = admin
+[20:15:48] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[20:15:48] 🔐 Default runtime role: admin
+[20:15:48] ✅ Security Gateway initialized
+[20:15:49] 📊 Dashboard active at http://127.0.0.1:9090
+[20:15:49] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[20:15:49] ⌛ Bridge active and relaying...
+[20:15:49] 📤 Outgoing MCP message from node: [2026-03-31 20:15:49.647 +0530] [32mINFO[39m (13112): [36m⚠️ SPIFFE disabled — running in dev mode[39m
+[20:15:49] 🟥 Node stderr: node:events:486
+[20:15:49] 🟥 Node stderr: throw er; // Unhandled 'error' event
+[20:15:49] 🟥 Node stderr: ^
+[20:15:49] 🟥 Node stderr: Error: listen EADDRINUSE: address already in use 0.0.0.0:9091
+[20:15:49] 🟥 Node stderr: at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+[20:15:49] 🟥 Node stderr: at listenInCluster (node:net:1997:12)
+[20:15:49] 🟥 Node stderr: at node:net:2206:7
+[20:15:49] 🟥 Node stderr: at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[20:15:49] 🟥 Node stderr: Emitted 'error' event on Server instance at:
+[20:15:49] 🟥 Node stderr: at emitErrorNT (node:net:1976:8)
+[20:15:49] 🟥 Node stderr: at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+[20:15:49] 🟥 Node stderr: code: 'EADDRINUSE',
+[20:15:49] 🟥 Node stderr: errno: -4091,
+[20:15:49] 🟥 Node stderr: syscall: 'listen',
+[20:15:49] 🟥 Node stderr: address: '0.0.0.0',
+[20:15:49] 🟥 Node stderr: port: 9091
+[20:15:49] 🟥 Node stderr: }
+[20:15:49] 🟥 Node stderr: Node.js v24.13.1
+[20:15:49] 🏁 Server exited with code 1
+[20:16:52] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-03-31 20:17:23 ---
+[20:17:23] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[20:17:23] ENV CHECK → RUNTIME_ROLE = admin
+[20:17:23] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[20:17:23] 🔐 Default runtime role: admin
+[20:17:23] ✅ Security Gateway initialized
+[20:17:23] 📊 Dashboard active at http://127.0.0.1:9090
+[20:17:23] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[20:17:23] ⌛ Bridge active and relaying...
+[20:17:24] 📤 Outgoing MCP message from node: [2026-03-31 20:17:24.012 +0530] [32mINFO[39m (17024): [36m⚠️ SPIFFE disabled — running in dev mode[39m
+[20:17:24] 📤 Outgoing MCP message from node: [2026-03-31 20:17:24.019 +0530] [32mINFO[39m (17024): [36m[Metrics] Prometheus scrape endpoint started on http://127.0.0.1:9091/metrics[39m
+[20:17:24] 📤 Outgoing MCP message from node: [2026-03-31 20:17:24.019 +0530] [32mINFO[39m (17024): [36m🚀 Keycloak MCP Server running on stdio[39m
+[20:30:38] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-03-31 20:34:14 ---
+[20:34:14] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[20:34:14] ENV CHECK → RUNTIME_ROLE = admin
+[20:34:14] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[20:34:14] 🔐 Default runtime role: admin
+[20:34:14] ✅ Security Gateway initialized
+[20:34:14] 📊 Dashboard active at http://127.0.0.1:9090
+[20:34:14] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[20:34:14] ⌛ Bridge active and relaying...
+[20:34:14] 📤 Outgoing MCP message from node: [2026-03-31 20:34:14.943 +0530] [32mINFO[39m (5112): [36m⚠️ SPIFFE disabled — running in dev mode[39m
+[20:34:14] 📤 Outgoing MCP message from node: [2026-03-31 20:34:14.951 +0530] [32mINFO[39m (5112): [36m[Metrics] Prometheus scrape endpoint started on http://127.0.0.1:9091/metrics[39m
+[20:34:14] 📤 Outgoing MCP message from node: [2026-03-31 20:34:14.951 +0530] [32mINFO[39m (5112): [36m🚀 Keycloak MCP Server running on stdio[39m
+[21:00:24] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-03-31 21:00:40 ---
+[21:00:40] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[21:00:40] ENV CHECK → RUNTIME_ROLE = admin
+[21:00:40] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[21:00:40] 🔐 Default runtime role: admin
+[21:00:40] ✅ Security Gateway initialized
+[21:00:40] 📊 Dashboard active at http://127.0.0.1:9090
+[21:00:40] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[21:00:40] ⌛ Bridge active and relaying...
+[21:00:41] 📤 Outgoing MCP message from node: [2026-03-31 21:00:41.652 +0530] [32mINFO[39m (20672): [36m⚠️ SPIFFE disabled — running in dev mode[39m
+[21:00:41] 📤 Outgoing MCP message from node: [2026-03-31 21:00:41.663 +0530] [32mINFO[39m (20672): [36m[Metrics] Prometheus scrape endpoint started on http://127.0.0.1:9091/metrics[39m
+[21:00:41] 📤 Outgoing MCP message from node: [2026-03-31 21:00:41.663 +0530] [32mINFO[39m (20672): [36m🚀 Keycloak MCP Server running on stdio[39m
+[21:12:09] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-03-31 21:12:11 ---
+[21:12:11] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[21:12:11] ENV CHECK → RUNTIME_ROLE = admin
+[21:12:11] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[21:12:11] 🔐 Default runtime role: admin
+[21:12:11] ✅ Security Gateway initialized
+[21:12:11] 📊 Dashboard active at http://127.0.0.1:9090
+[21:12:11] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[21:12:11] ⌛ Bridge active and relaying...
+[21:12:12] 📤 Outgoing MCP message from node: [2026-03-31 21:12:12.533 +0530] [32mINFO[39m (3144): [36m⚠️ SPIFFE disabled — running in dev mode[39m
+[21:12:12] 📤 Outgoing MCP message from node: [2026-03-31 21:12:12.544 +0530] [32mINFO[39m (3144): [36m[Metrics] Prometheus scrape endpoint started on http://127.0.0.1:9091/metrics[39m
+[21:12:12] 📤 Outgoing MCP message from node: [2026-03-31 21:12:12.545 +0530] [32mINFO[39m (3144): [36m🚀 Keycloak MCP Server running on stdio[39m
+[21:28:25] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-03-31 21:28:39 ---
+[21:28:39] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[21:28:39] ENV CHECK → RUNTIME_ROLE = admin
+[21:28:39] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[21:28:39] 🔐 Default runtime role: admin
+[21:28:39] ✅ Security Gateway initialized
+[21:28:39] 📊 Dashboard active at http://127.0.0.1:9090
+[21:28:39] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[21:28:39] ⌛ Bridge active and relaying...
+[21:28:40] 📤 Outgoing MCP message from node: [2026-03-31 21:28:40.025 +0530] [32mINFO[39m (3588): [36m⚠️ SPIFFE disabled — running in dev mode[39m
+[21:28:40] 📤 Outgoing MCP message from node: [2026-03-31 21:28:40.039 +0530] [32mINFO[39m (3588): [36m[Metrics] Prometheus scrape endpoint started on http://127.0.0.1:9091/metrics[39m
+[21:28:40] 📤 Outgoing MCP message from node: [2026-03-31 21:28:40.040 +0530] [32mINFO[39m (3588): [36m🚀 Keycloak MCP Server running on stdio[39m
+[21:41:36] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-03-31 21:41:39 ---
+[21:41:39] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[21:41:39] ENV CHECK → RUNTIME_ROLE = admin
+[21:41:39] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[21:41:39] 🔐 Default runtime role: admin
+[21:41:39] ✅ Security Gateway initialized
+[21:41:39] 📊 Dashboard active at http://127.0.0.1:9090
+[21:41:39] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[21:41:39] ⌛ Bridge active and relaying...
+[21:41:41] 📤 Outgoing MCP message from node: [2026-03-31 21:41:41.170 +0530] [32mINFO[39m (32176): [36m⚠️ SPIFFE disabled — running in dev mode[39m
+[21:41:41] 📤 Outgoing MCP message from node: [2026-03-31 21:41:41.180 +0530] [32mINFO[39m (32176): [36m[Metrics] Prometheus scrape endpoint started on http://127.0.0.1:9091/metrics[39m
+[21:41:41] 📤 Outgoing MCP message from node: [2026-03-31 21:41:41.180 +0530] [32mINFO[39m (32176): [36m🚀 Keycloak MCP Server running on stdio[39m
+[21:48:55] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-03-31 21:49:06 ---
+[21:49:06] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[21:49:06] ENV CHECK → RUNTIME_ROLE = admin
+[21:49:06] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[21:49:06] 🔐 Default runtime role: admin
+[21:49:06] ✅ Security Gateway initialized
+[21:49:06] 📊 Dashboard active at http://127.0.0.1:9090
+[21:49:06] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[21:49:06] ⌛ Bridge active and relaying...
+[21:49:07] 📤 Outgoing MCP message from node: [2026-03-31 21:49:07.198 +0530] [32mINFO[39m (1520): [36m⚠️ SPIFFE disabled — running in dev mode[39m
+[21:49:07] 📤 Outgoing MCP message from node: [2026-03-31 21:49:07.213 +0530] [32mINFO[39m (1520): [36m[Metrics] Prometheus scrape endpoint started on http://127.0.0.1:9091/metrics[39m
+[21:49:07] 📤 Outgoing MCP message from node: [2026-03-31 21:49:07.214 +0530] [32mINFO[39m (1520): [36m🚀 Keycloak MCP Server running on stdio[39m
+[21:59:33] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-03-31 21:59:45 ---
+[21:59:45] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[21:59:45] ENV CHECK → RUNTIME_ROLE = admin
+[21:59:45] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[21:59:45] 🔐 Default runtime role: admin
+[21:59:45] ✅ Security Gateway initialized
+[21:59:45] 📊 Dashboard active at http://127.0.0.1:9090
+[21:59:45] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[21:59:45] ⌛ Bridge active and relaying...
+[21:59:46] 📤 Outgoing MCP message: [2026-03-31 21:59:46.282 +0530] [32mINFO[39m (29584): [36m⚠️ SPIFFE disabled — running in dev mode[39m
+[21:59:46] 📤 Outgoing MCP message: [2026-03-31 21:59:46.294 +0530] [32mINFO[39m (29584): [36m[Metrics] Prometheus scrape endpoint started on http://127.0.0.1:9091/metrics[39m
+[21:59:46] 📤 Outgoing MCP message: [2026-03-31 21:59:46.294 +0530] [32mINFO[39m (29584): [36m🚀 Keycloak MCP Server running on stdio[39m
+[22:09:34] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-03-31 22:09:45 ---
+[22:09:45] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[22:09:45] ENV CHECK → RUNTIME_ROLE = admin
+[22:09:45] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[22:09:45] 🔐 Default runtime role: admin
+[22:09:45] ✅ Security Gateway initialized
+[22:09:45] 📊 Dashboard active at http://127.0.0.1:9090
+[22:09:45] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[22:09:45] ⌛ Bridge active and relaying...
+[22:09:46] 📤 Outgoing MCP message: [2026-03-31 22:09:46.366 +0530] [32mINFO[39m (22780): [36m⚠️ SPIFFE disabled — running in dev mode[39m
+[22:09:46] 📤 Outgoing MCP message: [2026-03-31 22:09:46.378 +0530] [32mINFO[39m (22780): [36m[Metrics] Prometheus scrape endpoint started on http://127.0.0.1:9091/metrics[39m
+[22:09:46] 📤 Outgoing MCP message: [2026-03-31 22:09:46.379 +0530] [32mINFO[39m (22780): [36m🚀 Keycloak MCP Server running on stdio[39m
+[22:15:25] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-03-31 22:15:40 ---
+[22:15:40] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[22:15:40] ENV CHECK → RUNTIME_ROLE = admin
+[22:15:40] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[22:15:40] 🔐 Default runtime role: admin
+[22:15:41] ✅ Security Gateway initialized
+[22:15:41] 📊 Dashboard active at http://127.0.0.1:9090
+[22:15:41] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[22:15:41] ⌛ Bridge active and relaying...
+[22:15:41] 📤 Outgoing MCP message: [2026-03-31 22:15:41.819 +0530] [32mINFO[39m (20636): [36m⚠️ SPIFFE disabled — running in dev mode[39m
+[22:15:41] 📤 Outgoing MCP message: [2026-03-31 22:15:41.829 +0530] [32mINFO[39m (20636): [36m[Metrics] Prometheus scrape endpoint started on http://127.0.0.1:9091/metrics[39m
+[22:15:41] 📤 Outgoing MCP message: [2026-03-31 22:15:41.829 +0530] [32mINFO[39m (20636): [36m🚀 Keycloak MCP Server running on stdio[39m
+[22:20:40] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-03-31 22:26:24 ---
+[22:26:24] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[22:26:24] ENV CHECK → RUNTIME_ROLE = admin
+[22:26:24] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[22:26:24] 🔐 Default runtime role: admin
+[22:26:24] ✅ Security Gateway initialized
+[22:26:24] 📊 Dashboard active at http://127.0.0.1:9090
+[22:26:24] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[22:26:24] ⌛ Bridge active and relaying...
+[22:26:25] 📤 Outgoing MCP message: [2026-03-31 22:26:25.408 +0530] [32mINFO[39m (32916): [36m⚠️ SPIFFE disabled — running in dev mode[39m
+[22:26:25] 📤 Outgoing MCP message: [2026-03-31 22:26:25.418 +0530] [32mINFO[39m (32916): [36m[Metrics] Prometheus scrape endpoint started on http://127.0.0.1:9091/metrics[39m
+[22:26:25] 📤 Outgoing MCP message: [2026-03-31 22:26:25.419 +0530] [32mINFO[39m (32916): [36m🚀 Keycloak MCP Server running on stdio[39m
+[22:34:36] 🏁 Server exited with code 1
+
+--- Secure Bridge Session Start: 2026-03-31 22:35:13 ---
+[22:35:13] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[22:35:13] ENV CHECK → RUNTIME_ROLE = admin
+[22:35:13] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[22:35:13] 🔐 Default runtime role: admin
+[22:35:13] ✅ Security Gateway initialized
+[22:35:13] 📊 Dashboard active at http://127.0.0.1:9090
+[22:35:13] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[22:35:13] ⌛ Bridge active and relaying...
+[22:35:14] 📤 Outgoing MCP message: [2026-03-31 22:35:14.518 +0530] [32mINFO[39m (21200): [36m⚠️ SPIFFE disabled — running in dev mode[39m
+[22:35:14] 🟥 Node stderr: node:events:486
+[22:35:14] 🟥 Node stderr: throw er; // Unhandled 'error' event
+[22:35:14] 🟥 Node stderr: ^
+[22:35:14] 🟥 Node stderr: Error: listen EADDRINUSE: address already in use 0.0.0.0:9091
+[22:35:14] 🟥 Node stderr: at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+[22:35:14] 🟥 Node stderr: at listenInCluster (node:net:1997:12)
+[22:35:14] 🟥 Node stderr: at node:net:2206:7
+[22:35:14] 🟥 Node stderr: at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[22:35:14] 🟥 Node stderr: Emitted 'error' event on Server instance at:
+[22:35:14] 🟥 Node stderr: at emitErrorNT (node:net:1976:8)
+[22:35:14] 🟥 Node stderr: at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+[22:35:14] 🟥 Node stderr: code: 'EADDRINUSE',
+[22:35:14] 🟥 Node stderr: errno: -4091,
+[22:35:14] 🟥 Node stderr: syscall: 'listen',
+[22:35:14] 🟥 Node stderr: address: '0.0.0.0',
+[22:35:14] 🟥 Node stderr: port: 9091
+[22:35:14] 🟥 Node stderr: }
+[22:35:14] 🟥 Node stderr: Node.js v24.13.1
+[22:35:14] 🏁 Server exited with code 1
+
+--- Secure Bridge Session Start: 2026-03-31 22:37:41 ---
+[22:37:41] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[22:37:41] ENV CHECK → RUNTIME_ROLE = admin
+[22:37:41] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[22:37:41] 🔐 Default runtime role: admin
+[22:37:41] ✅ Security Gateway initialized
+[22:37:41] 📊 Dashboard active at http://127.0.0.1:9090
+[22:37:41] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[22:37:41] ⌛ Bridge active and relaying...
+[22:37:42] 📤 Outgoing MCP message: [2026-03-31 22:37:42.150 +0530] [32mINFO[39m (34912): [36m⚠️ SPIFFE disabled — running in dev mode[39m
+[22:37:42] 📤 Outgoing MCP message: [2026-03-31 22:37:42.165 +0530] [32mINFO[39m (34912): [36m[Metrics] Prometheus scrape endpoint started on http://127.0.0.1:9091/metrics[39m
+[22:37:42] 📤 Outgoing MCP message: [2026-03-31 22:37:42.165 +0530] [32mINFO[39m (34912): [36m🚀 Keycloak MCP Server running on stdio[39m
+[22:38:59] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-03-31 22:42:38 ---
+[22:42:38] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[22:42:38] ENV CHECK → RUNTIME_ROLE = admin
+[22:42:38] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[22:42:38] 🔐 Default runtime role: admin
+[22:42:38] ✅ Security Gateway initialized
+[22:42:38] 📊 Dashboard active at http://127.0.0.1:9090
+[22:42:38] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[22:42:38] ⌛ Bridge active and relaying...
+[22:42:38] 📤 Outgoing MCP message: [2026-03-31 22:42:38.932 +0530] [32mINFO[39m (25772): [36m⚠️ SPIFFE disabled — running in dev mode[39m
+[22:42:38] 📤 Outgoing MCP message: [2026-03-31 22:42:38.944 +0530] [32mINFO[39m (25772): [36m[Metrics] Prometheus scrape endpoint started on http://127.0.0.1:9091/metrics[39m
+[22:42:38] 📤 Outgoing MCP message: [2026-03-31 22:42:38.944 +0530] [32mINFO[39m (25772): [36m🚀 Keycloak MCP Server running on stdio[39m
+[22:42:57] ⚠️ Request check error: Expecting value: line 1 column 1 (char 0)
+[22:43:00] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-03-31 22:43:13 ---
+[22:43:13] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[22:43:13] ENV CHECK → RUNTIME_ROLE = admin
+[22:43:13] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[22:43:13] 🔐 Default runtime role: admin
+[22:43:13] ✅ Security Gateway initialized
+[22:43:13] 📊 Dashboard active at http://127.0.0.1:9090
+[22:43:13] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[22:43:13] ⌛ Bridge active and relaying...
+[22:43:13] 📤 Outgoing MCP message: [2026-03-31 22:43:13.893 +0530] [32mINFO[39m (14692): [36m⚠️ SPIFFE disabled — running in dev mode[39m
+[22:43:13] 📤 Outgoing MCP message: [2026-03-31 22:43:13.903 +0530] [32mINFO[39m (14692): [36m[Metrics] Prometheus scrape endpoint started on http://127.0.0.1:9091/metrics[39m
+[22:43:13] 📤 Outgoing MCP message: [2026-03-31 22:43:13.903 +0530] [32mINFO[39m (14692): [36m🚀 Keycloak MCP Server running on stdio[39m
+[22:44:08] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-03-31 23:10:45 ---
+[23:10:45] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[23:10:45] ENV CHECK → RUNTIME_ROLE = admin
+[23:10:45] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[23:10:45] 🔐 Default runtime role: admin
+[23:10:45] ✅ Security Gateway initialized
+[23:10:45] 📊 Dashboard active at http://127.0.0.1:9090
+[23:10:45] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[23:10:45] ⌛ Bridge active and relaying...
+[23:10:46] 📤 Outgoing MCP message: [2026-03-31 23:10:46.010 +0530] [32mINFO[39m (11496): [36m⚠️ SPIFFE disabled — running in dev mode[39m
+[23:10:46] 🟥 Node stderr: node:events:486
+[23:10:46] 🟥 Node stderr: throw er; // Unhandled 'error' event
+[23:10:46] 🟥 Node stderr: ^
+[23:10:46] 🟥 Node stderr: Error: listen EADDRINUSE: address already in use 0.0.0.0:9091
+[23:10:46] 🟥 Node stderr: at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+[23:10:46] 🟥 Node stderr: at listenInCluster (node:net:1997:12)
+[23:10:46] 🟥 Node stderr: at node:net:2206:7
+[23:10:46] 🟥 Node stderr: at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[23:10:46] 🟥 Node stderr: Emitted 'error' event on Server instance at:
+[23:10:46] 🟥 Node stderr: at emitErrorNT (node:net:1976:8)
+[23:10:46] 🟥 Node stderr: at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+[23:10:46] 🟥 Node stderr: code: 'EADDRINUSE',
+[23:10:46] 🟥 Node stderr: errno: -4091,
+[23:10:46] 🟥 Node stderr: syscall: 'listen',
+[23:10:46] 🟥 Node stderr: address: '0.0.0.0',
+[23:10:46] 🟥 Node stderr: port: 9091
+[23:10:46] 🟥 Node stderr: }
+[23:10:46] 🟥 Node stderr: Node.js v24.13.1
+[23:10:46] 🏁 Server exited with code 1
+
+--- Secure Bridge Session Start: 2026-03-31 23:14:25 ---
+[23:14:25] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[23:14:25] ENV CHECK → RUNTIME_ROLE = admin
+[23:14:25] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[23:14:25] 🔐 Default runtime role: admin
+[23:14:25] ✅ Security Gateway initialized
+[23:14:25] 📊 Dashboard active at http://127.0.0.1:9090
+[23:14:25] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[23:14:25] ⌛ Bridge active and relaying...
+[23:14:25] 📤 Outgoing MCP message: [2026-03-31 23:14:25.923 +0530] [32mINFO[39m (11224): [36m⚠️ SPIFFE disabled — running in dev mode[39m
+[23:14:25] 📤 Outgoing MCP message: [2026-03-31 23:14:25.933 +0530] [32mINFO[39m (11224): [36m[Metrics] Prometheus scrape endpoint started on http://127.0.0.1:9091/metrics[39m
+[23:14:25] 📤 Outgoing MCP message: [2026-03-31 23:14:25.933 +0530] [32mINFO[39m (11224): [36m🚀 Keycloak MCP Server running on stdio[39m
+[23:24:28] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-03-31 23:32:30 ---
+[23:32:30] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[23:32:30] ENV CHECK → RUNTIME_ROLE = admin
+[23:32:30] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[23:32:30] 🔐 Default runtime role: admin
+[23:32:30] ✅ Security Gateway initialized
+[23:32:30] 📊 Dashboard active at http://127.0.0.1:9090
+[23:32:30] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[23:32:30] ⌛ Bridge active and relaying...
+[23:32:31] 📤 Outgoing MCP message: [2026-03-31 23:32:31.812 +0530] [32mINFO[39m (33236): [36m⚠️ SPIFFE disabled — running in dev mode[39m
+[23:32:31] 📤 Outgoing MCP message: [2026-03-31 23:32:31.832 +0530] [32mINFO[39m (33236): [36m[Metrics] Prometheus scrape endpoint started on http://127.0.0.1:9091/metrics[39m
+[23:32:31] 📤 Outgoing MCP message: [2026-03-31 23:32:31.832 +0530] [32mINFO[39m (33236): [36m🚀 Keycloak MCP Server running on stdio[39m
+[23:37:14] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-03-31 23:37:33 ---
+[23:37:33] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[23:37:33] ENV CHECK → RUNTIME_ROLE = admin
+[23:37:33] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[23:37:33] 🔐 Default runtime role: admin
+[23:37:33] ✅ Security Gateway initialized
+[23:37:33] 📊 Dashboard active at http://127.0.0.1:9090
+[23:37:33] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[23:37:33] ⌛ Bridge active and relaying...
+[23:37:34] 📤 Outgoing MCP message: [2026-03-31 23:37:34.771 +0530] [32mINFO[39m (21348): [36m⚠️ SPIFFE disabled — running in dev mode[39m
+[23:37:34] 📤 Outgoing MCP message: [2026-03-31 23:37:34.782 +0530] [32mINFO[39m (21348): [36m[Metrics] Prometheus scrape endpoint started on http://127.0.0.1:9091/metrics[39m
+[23:37:34] 📤 Outgoing MCP message: [2026-03-31 23:37:34.782 +0530] [32mINFO[39m (21348): [36m🚀 Keycloak MCP Server running on stdio[39m
+
+--- Secure Bridge Session Start: 2026-04-01 07:40:00 ---
+[07:40:00] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[07:40:00] ENV CHECK → RUNTIME_ROLE = admin
+[07:40:00] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[07:40:00] 🔐 Default runtime role: admin
+[07:40:00] ✅ Security Gateway initialized
+[07:40:00] 📊 Dashboard active at http://127.0.0.1:9090
+[07:40:00] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[07:40:00] ⌛ Bridge active and relaying...
+[07:40:01] 📤 Outgoing MCP message: [2026-04-01 07:40:01.798 +0530] [32mINFO[39m (20372): [36m⚠️ SPIFFE disabled — running in dev mode[39m
+[07:40:01] 📤 Outgoing MCP message: [2026-04-01 07:40:01.818 +0530] [32mINFO[39m (20372): [36m[Metrics] Prometheus scrape endpoint started on http://127.0.0.1:9091/metrics[39m
+[07:40:01] 📤 Outgoing MCP message: [2026-04-01 07:40:01.818 +0530] [32mINFO[39m (20372): [36m🚀 Keycloak MCP Server running on stdio[39m
+[07:43:31] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-04-01 07:43:39 ---
+[07:43:39] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[07:43:39] ENV CHECK → RUNTIME_ROLE = admin
+[07:43:39] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[07:43:39] 🔐 Default runtime role: admin
+[07:43:39] ✅ Security Gateway initialized
+[07:43:39] 📊 Dashboard active at http://127.0.0.1:9090
+[07:43:39] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[07:43:39] ⌛ Bridge active and relaying...
+[07:43:40] 📤 Outgoing MCP message: KEYCLOAK_URL: http://192.168.1.36:8080
+[07:43:40] 📤 Outgoing MCP message: KEYCLOAK_REALM: runtime-shield
+[07:43:40] 📤 Outgoing MCP message: KEYCLOAK_CLIENT_ID: mcp-server
+[07:43:40] 📤 Outgoing MCP message: KEYCLOAK_CLIENT_SECRET: GhzC60oEyx1ytaxkfVHCPMyvMKXopEP4
+[07:43:40] 📤 Outgoing MCP message: [2026-04-01 07:43:40.707 +0530] [32mINFO[39m (33088): [36m⚠️ SPIFFE disabled — running in dev mode[39m
+[07:43:40] 📤 Outgoing MCP message: [2026-04-01 07:43:40.724 +0530] [32mINFO[39m (33088): [36m[Metrics] Prometheus scrape endpoint started on http://127.0.0.1:9091/metrics[39m
+[07:43:40] 📤 Outgoing MCP message: [2026-04-01 07:43:40.725 +0530] [32mINFO[39m (33088): [36m🚀 Keycloak MCP Server running on stdio[39m
+[07:45:22] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-04-01 07:54:03 ---
+[07:54:03] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[07:54:03] ENV CHECK → RUNTIME_ROLE = admin
+[07:54:03] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[07:54:03] 🔐 Default runtime role: admin
+[07:54:03] ✅ Security Gateway initialized
+[07:54:03] 📊 Dashboard active at http://127.0.0.1:9090
+[07:54:03] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[07:54:03] ⌛ Bridge active and relaying...
+[07:54:04] 📤 Outgoing MCP message: KEYCLOAK_URL: http://localhost:8080
+[07:54:04] 📤 Outgoing MCP message: KEYCLOAK_REALM: runtime-shield
+[07:54:04] 📤 Outgoing MCP message: KEYCLOAK_CLIENT_ID: mcp-server
+[07:54:04] 📤 Outgoing MCP message: KEYCLOAK_CLIENT_SECRET: GhzC60oEyx1ytaxkfVHCPMyvMKXopEP4
+[07:54:04] 📤 Outgoing MCP message: [2026-04-01 07:54:04.263 +0530] [32mINFO[39m (29600): [36m⚠️ SPIFFE disabled — running in dev mode[39m
+[07:54:04] 📤 Outgoing MCP message: [2026-04-01 07:54:04.280 +0530] [32mINFO[39m (29600): [36m[Metrics] Prometheus scrape endpoint started on http://127.0.0.1:9091/metrics[39m
+[07:54:04] 📤 Outgoing MCP message: [2026-04-01 07:54:04.281 +0530] [32mINFO[39m (29600): [36m🚀 Keycloak MCP Server running on stdio[39m
+[07:54:57] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-04-01 08:28:06 ---
+
+--- Secure Bridge Session Start: 2026-04-01 08:28:13 ---
+[08:28:13] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[08:28:13] ENV CHECK → RUNTIME_ROLE = admin
+[08:28:13] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[08:28:13] 🔐 Default runtime role: admin
+[08:28:13] ✅ Security Gateway initialized
+[08:28:13] 📊 Dashboard active at http://127.0.0.1:9090
+[08:28:13] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[08:28:13] ⌛ Bridge active and relaying...
+[08:28:14] 📤 Outgoing MCP message: KEYCLOAK_URL: http://localhost:8080
+[08:28:14] 📤 Outgoing MCP message: KEYCLOAK_REALM: runtime-shield
+[08:28:14] 📤 Outgoing MCP message: KEYCLOAK_CLIENT_ID: mcp-server
+[08:28:14] 📤 Outgoing MCP message: KEYCLOAK_CLIENT_SECRET: GhzC60oEyx1ytaxkfVHCPMyvMKXopEP4
+[08:28:14] 📤 Outgoing MCP message: [2026-04-01 08:28:14.383 +0530] [32mINFO[39m (24964): [36m⚠️ SPIFFE disabled — running in dev mode[39m
+[08:28:14] 📤 Outgoing MCP message: [2026-04-01 08:28:14.397 +0530] [32mINFO[39m (24964): [36m[Metrics] Prometheus scrape endpoint started on http://127.0.0.1:9091/metrics[39m
+[08:28:14] 📤 Outgoing MCP message: [2026-04-01 08:28:14.398 +0530] [32mINFO[39m (24964): [36m🚀 Keycloak MCP Server running on stdio[39m
+[08:30:48] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-04-01 08:39:43 ---
+[08:39:43] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[08:39:43] ENV CHECK → RUNTIME_ROLE = admin
+[08:39:43] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[08:39:43] 🔐 Default runtime role: admin
+[08:39:43] ✅ Security Gateway initialized
+[08:39:43] 📊 Dashboard active at http://127.0.0.1:9090
+[08:39:43] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[08:39:43] ⌛ Bridge active and relaying...
+[08:39:43] 📤 Outgoing MCP message: KEYCLOAK_URL: http://localhost:8080
+[08:39:43] 📤 Outgoing MCP message: KEYCLOAK_REALM: runtime-shield
+[08:39:43] 📤 Outgoing MCP message: KEYCLOAK_CLIENT_ID: mcp-server
+[08:39:43] 📤 Outgoing MCP message: KEYCLOAK_CLIENT_SECRET: GhzC60oEyx1ytaxkfVHCPMyvMKXopEP4
+[08:39:43] 📤 Outgoing MCP message: [2026-04-01 08:39:43.832 +0530] [32mINFO[39m (31404): [36m⚠️ SPIFFE disabled — running in dev mode[39m
+[08:39:43] 📤 Outgoing MCP message: [2026-04-01 08:39:43.847 +0530] [32mINFO[39m (31404): [36m[Metrics] Prometheus scrape endpoint started on http://127.0.0.1:9091/metrics[39m
+[08:39:43] 📤 Outgoing MCP message: [2026-04-01 08:39:43.847 +0530] [32mINFO[39m (31404): [36m🚀 Keycloak MCP Server running on stdio[39m
+[08:44:04] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-04-01 08:49:32 ---
+[08:49:32] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[08:49:32] ENV CHECK → RUNTIME_ROLE = admin
+[08:49:32] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[08:49:32] 🔐 Default runtime role: admin
+[08:49:32] ✅ Security Gateway initialized
+[08:49:32] 📊 Dashboard active at http://127.0.0.1:9090
+[08:49:32] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[08:49:32] ⌛ Bridge active and relaying...
+[08:49:33] 📤 Outgoing MCP message: KEYCLOAK_URL: http://127.0.0.1:8080
+[08:49:33] 📤 Outgoing MCP message: KEYCLOAK_REALM: runtime-shield
+[08:49:33] 📤 Outgoing MCP message: KEYCLOAK_CLIENT_ID: mcp-server
+[08:49:33] 📤 Outgoing MCP message: KEYCLOAK_CLIENT_SECRET: GhzC60oEyx1ytaxkfVHCPMyvMKXopEP4
+[08:49:33] 📤 Outgoing MCP message: [2026-04-01 08:49:33.202 +0530] [32mINFO[39m (28388): [36m⚠️ SPIFFE disabled — running in dev mode[39m
+[08:49:33] 📤 Outgoing MCP message: [2026-04-01 08:49:33.213 +0530] [32mINFO[39m (28388): [36m[Metrics] Prometheus scrape endpoint started on http://127.0.0.1:9091/metrics[39m
+[08:49:33] 📤 Outgoing MCP message: [2026-04-01 08:49:33.213 +0530] [32mINFO[39m (28388): [36m🚀 Keycloak MCP Server running on stdio[39m
+[08:53:58] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-04-01 08:54:19 ---
+[08:54:19] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[08:54:19] ENV CHECK → RUNTIME_ROLE = admin
+[08:54:19] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[08:54:19] 🔐 Default runtime role: admin
+[08:54:19] ✅ Security Gateway initialized
+[08:54:19] 📊 Dashboard active at http://127.0.0.1:9090
+[08:54:19] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[08:54:19] ⌛ Bridge active and relaying...
+[08:54:20] 📤 Outgoing MCP message: KEYCLOAK_URL: http://127.0.0.1:8080/auth
+[08:54:20] 📤 Outgoing MCP message: KEYCLOAK_REALM: runtime-shield
+[08:54:20] 📤 Outgoing MCP message: KEYCLOAK_CLIENT_ID: mcp-server
+[08:54:20] 📤 Outgoing MCP message: KEYCLOAK_CLIENT_SECRET: GhzC60oEyx1ytaxkfVHCPMyvMKXopEP4
+[08:54:20] 📤 Outgoing MCP message: [2026-04-01 08:54:20.208 +0530] [32mINFO[39m (29692): [36m⚠️ SPIFFE disabled — running in dev mode[39m
+[08:54:20] 📤 Outgoing MCP message: [2026-04-01 08:54:20.216 +0530] [32mINFO[39m (29692): [36m[Metrics] Prometheus scrape endpoint started on http://127.0.0.1:9091/metrics[39m
+[08:54:20] 📤 Outgoing MCP message: [2026-04-01 08:54:20.216 +0530] [32mINFO[39m (29692): [36m🚀 Keycloak MCP Server running on stdio[39m
+[08:57:34] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-04-01 09:00:02 ---
+[09:00:02] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[09:00:02] ENV CHECK → RUNTIME_ROLE = admin
+[09:00:02] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[09:00:02] 🔐 Default runtime role: admin
+[09:00:02] ✅ Security Gateway initialized
+[09:00:02] 📊 Dashboard active at http://127.0.0.1:9090
+[09:00:02] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[09:00:02] ⌛ Bridge active and relaying...
+[09:00:02] 📤 Outgoing MCP message: KEYCLOAK_URL: http://127.0.0.1:8080/auth
+[09:00:02] 📤 Outgoing MCP message: KEYCLOAK_REALM: runtime-shield
+[09:00:02] 📤 Outgoing MCP message: KEYCLOAK_CLIENT_ID: mcp-server
+[09:00:02] 📤 Outgoing MCP message: KEYCLOAK_CLIENT_SECRET: GhzC60oEyx1ytaxkfVHCPMyvMKXopEP4
+[09:00:02] 📤 Outgoing MCP message: [2026-04-01 09:00:02.759 +0530] [32mINFO[39m (31620): [36m⚠️ SPIFFE disabled — running in dev mode[39m
+[09:00:02] 📤 Outgoing MCP message: [2026-04-01 09:00:02.773 +0530] [32mINFO[39m (31620): [36m[Metrics] Prometheus scrape endpoint started on http://127.0.0.1:9091/metrics[39m
+[09:00:02] 📤 Outgoing MCP message: [2026-04-01 09:00:02.774 +0530] [32mINFO[39m (31620): [36m🚀 Keycloak MCP Server running on stdio[39m
+[09:02:03] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-04-01 09:08:16 ---
+[09:08:16] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[09:08:16] ENV CHECK → RUNTIME_ROLE = admin
+[09:08:16] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[09:08:16] 🔐 Default runtime role: admin
+[09:08:16] ✅ Security Gateway initialized
+[09:08:16] 📊 Dashboard active at http://127.0.0.1:9090
+[09:08:16] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[09:08:16] ⌛ Bridge active and relaying...
+[09:08:17] 📤 Outgoing MCP message: KEYCLOAK_URL: http://127.0.0.1:8080/auth
+[09:08:17] 📤 Outgoing MCP message: KEYCLOAK_REALM: runtime-shield
+[09:08:17] 📤 Outgoing MCP message: KEYCLOAK_CLIENT_ID: mcp-server
+[09:08:17] 📤 Outgoing MCP message: KEYCLOAK_CLIENT_SECRET: GhzC60oEyx1ytaxkfVHCPMyvMKXopEP4
+[09:08:17] 📤 Outgoing MCP message: [2026-04-01 09:08:17.407 +0530] [32mINFO[39m (20656): [36m⚠️ SPIFFE disabled — running in dev mode[39m
+[09:08:17] 📤 Outgoing MCP message: [2026-04-01 09:08:17.418 +0530] [32mINFO[39m (20656): [36m[Metrics] Prometheus scrape endpoint started on http://127.0.0.1:9091/metrics[39m
+[09:08:17] 📤 Outgoing MCP message: [2026-04-01 09:08:17.418 +0530] [32mINFO[39m (20656): [36m🚀 Keycloak MCP Server running on stdio[39m
+[09:10:52] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-04-01 09:10:58 ---
+[09:10:58] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[09:10:58] ENV CHECK → RUNTIME_ROLE = admin
+[09:10:58] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[09:10:58] 🔐 Default runtime role: admin
+[09:10:58] ✅ Security Gateway initialized
+[09:10:58] 📊 Dashboard active at http://127.0.0.1:9090
+[09:10:58] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[09:10:58] ⌛ Bridge active and relaying...
+[09:10:59] 📤 Outgoing MCP message: KEYCLOAK_URL: http://127.0.0.1:8080/auth
+[09:10:59] 📤 Outgoing MCP message: KEYCLOAK_REALM: runtime-shield
+[09:10:59] 📤 Outgoing MCP message: KEYCLOAK_CLIENT_ID: mcp-server
+[09:10:59] 📤 Outgoing MCP message: KEYCLOAK_CLIENT_SECRET: GhzC60oEyx1ytaxkfVHCPMyvMKXopEP4
+[09:10:59] 📤 Outgoing MCP message: [2026-04-01 09:10:59.292 +0530] [32mINFO[39m (32712): [36m⚠️ SPIFFE disabled — running in dev mode[39m
+[09:10:59] 📤 Outgoing MCP message: [2026-04-01 09:10:59.303 +0530] [32mINFO[39m (32712): [36m[Metrics] Prometheus scrape endpoint started on http://127.0.0.1:9091/metrics[39m
+[09:10:59] 📤 Outgoing MCP message: [2026-04-01 09:10:59.303 +0530] [32mINFO[39m (32712): [36m🚀 Keycloak MCP Server running on stdio[39m
+[09:15:05] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-04-01 09:15:12 ---
+[09:15:12] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[09:15:12] ENV CHECK → RUNTIME_ROLE = admin
+[09:15:12] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[09:15:12] 🔐 Default runtime role: admin
+[09:15:12] ✅ Security Gateway initialized
+[09:15:12] 📊 Dashboard active at http://127.0.0.1:9090
+[09:15:12] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[09:15:12] ⌛ Bridge active and relaying...
+[09:15:12] 📤 Outgoing MCP message: KEYCLOAK_URL: http://127.0.0.1:8080
+[09:15:12] 📤 Outgoing MCP message: KEYCLOAK_REALM: runtime-shield
+[09:15:12] 📤 Outgoing MCP message: KEYCLOAK_CLIENT_ID: mcp-server
+[09:15:12] 📤 Outgoing MCP message: KEYCLOAK_CLIENT_SECRET: GhzC60oEyx1ytaxkfVHCPMyvMKXopEP4
+[09:15:12] 📤 Outgoing MCP message: [2026-04-01 09:15:12.890 +0530] [32mINFO[39m (26480): [36m⚠️ SPIFFE disabled — running in dev mode[39m
+[09:15:12] 📤 Outgoing MCP message: [2026-04-01 09:15:12.902 +0530] [32mINFO[39m (26480): [36m[Metrics] Prometheus scrape endpoint started on http://127.0.0.1:9091/metrics[39m
+[09:15:12] 📤 Outgoing MCP message: [2026-04-01 09:15:12.902 +0530] [32mINFO[39m (26480): [36m🚀 Keycloak MCP Server running on stdio[39m
+[09:17:30] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-04-01 09:17:43 ---
+[09:17:43] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[09:17:43] ENV CHECK → RUNTIME_ROLE = admin
+[09:17:43] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[09:17:43] 🔐 Default runtime role: admin
+[09:17:43] ✅ Security Gateway initialized
+[09:17:43] 📊 Dashboard active at http://127.0.0.1:9090
+[09:17:43] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[09:17:43] ⌛ Bridge active and relaying...
+[09:17:43] 📤 Outgoing MCP message: KEYCLOAK_URL: http://127.0.0.1:8080
+[09:17:43] 📤 Outgoing MCP message: KEYCLOAK_REALM: runtime-shield
+[09:17:43] 📤 Outgoing MCP message: KEYCLOAK_CLIENT_ID: mcp-server
+[09:17:43] 📤 Outgoing MCP message: KEYCLOAK_CLIENT_SECRET: GhzC60oEyx1ytaxkfVHCPMyvMKXopEP4
+[09:17:43] 📤 Outgoing MCP message: [2026-04-01 09:17:43.924 +0530] [32mINFO[39m (18320): [36m⚠️ SPIFFE disabled — running in dev mode[39m
+[09:17:43] 📤 Outgoing MCP message: [2026-04-01 09:17:43.934 +0530] [32mINFO[39m (18320): [36m[Metrics] Prometheus scrape endpoint started on http://127.0.0.1:9091/metrics[39m
+[09:17:43] 📤 Outgoing MCP message: [2026-04-01 09:17:43.934 +0530] [32mINFO[39m (18320): [36m🚀 Keycloak MCP Server running on stdio[39m
+[09:21:23] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-04-01 09:21:30 ---
+[09:21:30] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[09:21:30] ENV CHECK → RUNTIME_ROLE = admin
+[09:21:30] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[09:21:30] 🔐 Default runtime role: admin
+[09:21:30] ✅ Security Gateway initialized
+[09:21:30] 📊 Dashboard active at http://127.0.0.1:9090
+[09:21:30] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[09:21:30] ⌛ Bridge active and relaying...
+[09:21:31] 📤 Outgoing MCP message: KEYCLOAK_URL: http://127.0.0.1:8080
+[09:21:31] 📤 Outgoing MCP message: KEYCLOAK_REALM: runtime-shield
+[09:21:31] 📤 Outgoing MCP message: KEYCLOAK_CLIENT_ID: mcp-server
+[09:21:31] 📤 Outgoing MCP message: KEYCLOAK_CLIENT_SECRET: GhzC60oEyx1ytaxkfVHCPMyvMKXopEP4
+[09:21:31] 📤 Outgoing MCP message: [2026-04-01 09:21:31.252 +0530] [32mINFO[39m (34780): [36m⚠️ SPIFFE disabled — running in dev mode[39m
+[09:21:31] 📤 Outgoing MCP message: [2026-04-01 09:21:31.261 +0530] [32mINFO[39m (34780): [36m[Metrics] Prometheus scrape endpoint started on http://127.0.0.1:9091/metrics[39m
+[09:21:31] 📤 Outgoing MCP message: [2026-04-01 09:21:31.261 +0530] [32mINFO[39m (34780): [36m🚀 Keycloak MCP Server running on stdio[39m
+[09:26:40] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-04-01 09:28:07 ---
+[09:28:07] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[09:28:07] ENV CHECK → RUNTIME_ROLE = admin
+[09:28:07] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[09:28:07] 🔐 Default runtime role: admin
+[09:28:07] ✅ Security Gateway initialized
+[09:28:07] 📊 Dashboard active at http://127.0.0.1:9090
+[09:28:07] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[09:28:07] ⌛ Bridge active and relaying...
+[09:28:07] 📤 Outgoing MCP message: KEYCLOAK_URL: http://127.0.0.1:8080
+[09:28:07] 📤 Outgoing MCP message: KEYCLOAK_REALM: runtime-shield
+[09:28:07] 📤 Outgoing MCP message: KEYCLOAK_CLIENT_ID: mcp-server
+[09:28:07] 📤 Outgoing MCP message: KEYCLOAK_CLIENT_SECRET: GhzC60oEyx1ytaxkfVHCPMyvMKXopEP4
+[09:28:07] 📤 Outgoing MCP message: [2026-04-01 09:28:07.747 +0530] [32mINFO[39m (13784): [36m⚠️ SPIFFE disabled — running in dev mode[39m
+[09:28:07] 📤 Outgoing MCP message: [2026-04-01 09:28:07.758 +0530] [32mINFO[39m (13784): [36m[Metrics] Prometheus scrape endpoint started on http://127.0.0.1:9091/metrics[39m
+[09:28:07] 📤 Outgoing MCP message: [2026-04-01 09:28:07.758 +0530] [32mINFO[39m (13784): [36m🚀 Keycloak MCP Server running on stdio[39m
+[09:31:33] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-04-01 09:37:29 ---
+[09:37:29] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[09:37:29] ENV CHECK → RUNTIME_ROLE = admin
+[09:37:29] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[09:37:29] 🔐 Default runtime role: admin
+[09:37:29] ❌ Gateway init failed: name 'Gateway' is not defined
+
+--- Secure Bridge Session Start: 2026-04-01 09:39:16 ---
+[09:39:16] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[09:39:16] ENV CHECK → RUNTIME_ROLE = admin
+[09:39:16] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[09:39:16] 🔐 Default runtime role: admin
+[09:39:16] ✅ Bridge initialized (firewall disabled)
+[09:39:16] 📊 Dashboard active at http://127.0.0.1:9090
+[09:39:16] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[09:39:16] ⌛ Bridge active and relaying...
+[09:39:17] 📤 Outgoing MCP message: KEYCLOAK_URL: http://127.0.0.1:8080
+[09:39:17] 📤 Outgoing MCP message: KEYCLOAK_REALM: runtime-shield
+[09:39:17] 📤 Outgoing MCP message: KEYCLOAK_CLIENT_ID: mcp-server
+[09:39:17] 📤 Outgoing MCP message: KEYCLOAK_CLIENT_SECRET: GhzC60oEyx1ytaxkfVHCPMyvMKXopEP4
+[09:39:17] 📤 Outgoing MCP message: [2026-04-01 09:39:17.472 +0530] [32mINFO[39m (20340): [36m⚠️ SPIFFE disabled — running in dev mode[39m
+[09:39:17] Output thread error: 'charmap' codec can't encode characters in position 61-62: character maps to <undefined>
+[09:39:17] 📩 Incoming MCP message: tools/call
+[09:39:17] 🔍 Checking tool call: keycloak_list_user_sessions
+[09:39:17] ✅ Role allowed: admin can use keycloak_list_user_sessions
+
+--- Secure Bridge Session Start: 2026-04-01 09:39:59 ---
+[09:39:59] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[09:39:59] ENV CHECK → RUNTIME_ROLE = admin
+[09:39:59] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[09:39:59] 🔐 Default runtime role: admin
+[09:39:59] ✅ Bridge initialized (firewall disabled)
+[09:39:59] 📊 Dashboard active at http://127.0.0.1:9090
+[09:39:59] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[09:39:59] ⌛ Bridge active and relaying...
+[09:39:59] 📤 Outgoing MCP message: KEYCLOAK_URL: http://127.0.0.1:8080
+[09:39:59] 📤 Outgoing MCP message: KEYCLOAK_REALM: runtime-shield
+[09:39:59] 📤 Outgoing MCP message: KEYCLOAK_CLIENT_ID: mcp-server
+[09:39:59] 📤 Outgoing MCP message: KEYCLOAK_CLIENT_SECRET: GhzC60oEyx1ytaxkfVHCPMyvMKXopEP4
+[09:39:59] 📤 Outgoing MCP message: [2026-04-01 09:39:59.889 +0530] [32mINFO[39m (7424): [36m⚠️ SPIFFE disabled — running in dev mode[39m
+[09:40:00] 🟥 Node stderr: node:events:486
+[09:40:00] 🟥 Node stderr: throw er; // Unhandled 'error' event
+[09:40:00] 🟥 Node stderr: ^
+[09:40:00] 🟥 Node stderr: Error: listen EADDRINUSE: address already in use 0.0.0.0:9091
+[09:40:00] 🟥 Node stderr: at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+[09:40:00] 🟥 Node stderr: at listenInCluster (node:net:1997:12)
+[09:40:00] 🟥 Node stderr: at node:net:2206:7
+[09:40:00] 🟥 Node stderr: at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[09:40:00] 🟥 Node stderr: Emitted 'error' event on Server instance at:
+[09:40:00] 🟥 Node stderr: at emitErrorNT (node:net:1976:8)
+[09:40:00] 🟥 Node stderr: at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+[09:40:00] 🟥 Node stderr: code: 'EADDRINUSE',
+[09:40:00] 🟥 Node stderr: errno: -4091,
+[09:40:00] 🟥 Node stderr: syscall: 'listen',
+[09:40:00] 🟥 Node stderr: address: '0.0.0.0',
+[09:40:00] 🟥 Node stderr: port: 9091
+[09:40:00] 🟥 Node stderr: }
+[09:40:00] 🟥 Node stderr: Node.js v24.13.1
+[09:40:00] 🏁 Server exited with code 1
+
+--- Secure Bridge Session Start: 2026-04-01 09:40:25 ---
+[09:40:25] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[09:40:25] ENV CHECK → RUNTIME_ROLE = admin
+[09:40:25] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[09:40:25] 🔐 Default runtime role: admin
+[09:40:25] ✅ Bridge initialized (firewall disabled)
+[09:40:25] 📊 Dashboard active at http://127.0.0.1:9090
+[09:40:25] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[09:40:25] 📩 Incoming MCP message: tools/list
+[09:40:25] ⌛ Bridge active and relaying...
+[09:40:25] 📤 Outgoing MCP message: KEYCLOAK_URL: http://127.0.0.1:8080
+[09:40:25] 📤 Outgoing MCP message: KEYCLOAK_REALM: runtime-shield
+[09:40:25] 📤 Outgoing MCP message: KEYCLOAK_CLIENT_ID: mcp-server
+[09:40:25] 📤 Outgoing MCP message: KEYCLOAK_CLIENT_SECRET: GhzC60oEyx1ytaxkfVHCPMyvMKXopEP4
+[09:40:25] 📤 Outgoing MCP message: {"result":{"tools":[{"name":"keycloak_list_users","inputSchema":{"type":"object","properties":{}},"annotations":{"description":"List all users in Keycloak","inputSchema":{"type":"object","properties":
+[09:40:25] 📤 Outgoing MCP message: [2026-04-01 09:40:25.902 +0530] [32mINFO[39m (28392): [36m⚠️ SPIFFE disabled — running in dev mode[39m
+[09:40:25] 📤 Outgoing MCP message: [2026-04-01 09:40:25.912 +0530] [32mINFO[39m (28392): [36m[Metrics] Prometheus scrape endpoint started on http://127.0.0.1:9091/metrics[39m
+[09:40:25] 📤 Outgoing MCP message: [2026-04-01 09:40:25.912 +0530] [32mINFO[39m (28392): [36m🚀 Keycloak MCP Server running on stdio[39m
+
+--- Secure Bridge Session Start: 2026-04-01 09:44:47 ---
+[09:44:47] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[09:44:47] ENV CHECK → RUNTIME_ROLE = admin
+[09:44:47] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[09:44:47] 🔐 Default runtime role: admin
+[09:44:47] ✅ Bridge initialized (firewall disabled)
+[09:44:47] 📊 Dashboard active at http://127.0.0.1:9090
+[09:44:47] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[09:44:47] ⌛ Bridge active and relaying...
+[09:44:48] 📤 Outgoing MCP message: KEYCLOAK_URL: http://127.0.0.1:8080
+[09:44:48] 📤 Outgoing MCP message: KEYCLOAK_REALM: runtime-shield
+[09:44:48] 📤 Outgoing MCP message: KEYCLOAK_CLIENT_ID: mcp-server
+[09:44:48] 📤 Outgoing MCP message: KEYCLOAK_CLIENT_SECRET: GhzC60oEyx1ytaxkfVHCPMyvMKXopEP4
+[09:44:48] 📤 Outgoing MCP message: [2026-04-01 09:44:48.738 +0530] [32mINFO[39m (11164): [36m⚠️ SPIFFE disabled — running in dev mode[39m
+[09:44:48] 📤 Outgoing MCP message: [2026-04-01 09:44:48.748 +0530] [32mINFO[39m (11164): [36m[Metrics] Prometheus scrape endpoint started on http://127.0.0.1:9091/metrics[39m
+[09:44:48] 📤 Outgoing MCP message: [2026-04-01 09:44:48.748 +0530] [32mINFO[39m (11164): [36m🚀 Keycloak MCP Server running on stdio[39m
+
+--- Secure Bridge Session Start: 2026-04-01 09:52:30 ---
+[09:52:30] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[09:52:30] ENV CHECK → RUNTIME_ROLE = admin
+[09:52:30] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[09:52:30] 🔐 Default runtime role: admin
+[09:52:30] ✅ Bridge initialized (firewall disabled)
+[09:52:30] 📊 Dashboard active at http://127.0.0.1:9090
+[09:52:30] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[09:52:30] 📩 Incoming MCP message: initialize
+[09:52:30] ⌛ Bridge active and relaying...
+[09:52:31] 📤 Outgoing MCP message: KEYCLOAK_URL: http://127.0.0.1:8080
+[09:52:31] 📤 Outgoing MCP message: KEYCLOAK_REALM: runtime-shield
+[09:52:31] 📤 Outgoing MCP message: KEYCLOAK_CLIENT_ID: mcp-server
+[09:52:31] 📤 Outgoing MCP message: KEYCLOAK_CLIENT_SECRET: GhzC60oEyx1ytaxkfVHCPMyvMKXopEP4
+[09:52:31] 📤 Outgoing MCP message: [2026-04-01 09:52:31.198 +0530] [32mINFO[39m (33940): [36m⚠️ SPIFFE disabled — running in dev mode[39m
+[09:52:31] 🟥 Node stderr: node:events:486
+[09:52:31] 🟥 Node stderr: throw er; // Unhandled 'error' event
+[09:52:31] 🟥 Node stderr: ^
+[09:52:31] 🟥 Node stderr: Error: listen EADDRINUSE: address already in use 0.0.0.0:9091
+[09:52:31] 🟥 Node stderr: at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+[09:52:31] 🟥 Node stderr: at listenInCluster (node:net:1997:12)
+[09:52:31] 🟥 Node stderr: at node:net:2206:7
+[09:52:31] 🟥 Node stderr: at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[09:52:31] 🟥 Node stderr: Emitted 'error' event on Server instance at:
+[09:52:31] 🟥 Node stderr: at emitErrorNT (node:net:1976:8)
+[09:52:31] 🟥 Node stderr: at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+[09:52:31] 🟥 Node stderr: code: 'EADDRINUSE',
+[09:52:31] 🟥 Node stderr: errno: -4091,
+[09:52:31] 🟥 Node stderr: syscall: 'listen',
+[09:52:31] 🟥 Node stderr: address: '0.0.0.0',
+[09:52:31] 🟥 Node stderr: port: 9091
+[09:52:31] 🟥 Node stderr: }
+[09:52:31] 🟥 Node stderr: Node.js v24.13.1
+[09:52:31] 🏁 Server exited with code 1
+[09:55:45] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-04-01 09:56:05 ---
+[09:56:05] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[09:56:05] ENV CHECK → RUNTIME_ROLE = admin
+[09:56:05] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[09:56:05] 🔐 Default runtime role: admin
+[09:56:05] ✅ Bridge initialized (firewall disabled)
+[09:56:05] 📊 Dashboard active at http://127.0.0.1:9090
+[09:56:05] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[09:56:05] ⌛ Bridge active and relaying...
+[09:56:06] 🟥 Node stderr: KEYCLOAK_URL: http://127.0.0.1:8080
+[09:56:06] 🟥 Node stderr: KEYCLOAK_REALM: runtime-shield
+[09:56:06] 🟥 Node stderr: KEYCLOAK_CLIENT_ID: mcp-server
+[09:56:06] 🟥 Node stderr: KEYCLOAK_CLIENT_SECRET: GhzC60oEyx1ytaxkfVHCPMyvMKXopEP4
+[09:56:06] 📤 Outgoing MCP message: [2026-04-01 09:56:06.165 +0530] [32mINFO[39m (3972): [36m⚠️ SPIFFE disabled — running in dev mode[39m
+[09:56:06] 📤 Outgoing MCP message: [2026-04-01 09:56:06.173 +0530] [32mINFO[39m (3972): [36m[Metrics] Prometheus scrape endpoint started on http://127.0.0.1:9091/metrics[39m
+[09:56:06] 📤 Outgoing MCP message: [2026-04-01 09:56:06.174 +0530] [32mINFO[39m (3972): [36m🚀 Keycloak MCP Server running on stdio[39m
+
+--- Secure Bridge Session Start: 2026-04-01 09:56:16 ---
+[09:56:16] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[09:56:16] ENV CHECK → RUNTIME_ROLE = admin
+[09:56:16] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[09:56:16] 🔐 Default runtime role: admin
+[09:56:16] ✅ Bridge initialized (firewall disabled)
+[09:56:16] 📊 Dashboard active at http://127.0.0.1:9090
+[09:56:16] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[09:56:16] 📩 Incoming MCP message: initialize
+[09:56:16] ⌛ Bridge active and relaying...
+[09:56:17] 🟥 Node stderr: KEYCLOAK_URL: http://127.0.0.1:8080
+[09:56:17] 🟥 Node stderr: KEYCLOAK_REALM: runtime-shield
+[09:56:17] 🟥 Node stderr: KEYCLOAK_CLIENT_ID: mcp-server
+[09:56:17] 🟥 Node stderr: KEYCLOAK_CLIENT_SECRET: GhzC60oEyx1ytaxkfVHCPMyvMKXopEP4
+[09:56:17] 📤 Outgoing MCP message: [2026-04-01 09:56:17.495 +0530] [32mINFO[39m (25920): [36m⚠️ SPIFFE disabled — running in dev mode[39m
+[09:56:17] 🟥 Node stderr: node:events:486
+[09:56:17] 🟥 Node stderr: throw er; // Unhandled 'error' event
+[09:56:17] 🟥 Node stderr: ^
+[09:56:17] 🟥 Node stderr: Error: listen EADDRINUSE: address already in use 0.0.0.0:9091
+[09:56:17] 🟥 Node stderr: at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+[09:56:17] 🟥 Node stderr: at listenInCluster (node:net:1997:12)
+[09:56:17] 🟥 Node stderr: at node:net:2206:7
+[09:56:17] 🟥 Node stderr: at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[09:56:17] 🟥 Node stderr: Emitted 'error' event on Server instance at:
+[09:56:17] 🟥 Node stderr: at emitErrorNT (node:net:1976:8)
+[09:56:17] 🟥 Node stderr: at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+[09:56:17] 🟥 Node stderr: code: 'EADDRINUSE',
+[09:56:17] 🟥 Node stderr: errno: -4091,
+[09:56:17] 🟥 Node stderr: syscall: 'listen',
+[09:56:17] 🟥 Node stderr: address: '0.0.0.0',
+[09:56:17] 🟥 Node stderr: port: 9091
+[09:56:17] 🟥 Node stderr: }
+[09:56:17] 🟥 Node stderr: Node.js v24.13.1
+[09:56:17] 🏁 Server exited with code 1
+[10:02:28] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-04-01 10:09:36 ---
+[10:09:36] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[10:09:36] ENV CHECK → RUNTIME_ROLE = admin
+[10:09:36] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[10:09:36] 🔐 Default runtime role: admin
+[10:09:36] ✅ Bridge initialized (firewall disabled)
+[10:09:36] 📊 Dashboard active at http://127.0.0.1:9090
+[10:09:36] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[10:09:36] ⌛ Bridge active and relaying...
+[10:09:37] 📤 Outgoing MCP message: [2026-04-01 10:09:37.299 +0530] [32mINFO[39m (21644): [36m⚠️ SPIFFE disabled — dev mode[39m
+[10:09:37] 📤 Outgoing MCP message: [2026-04-01 10:09:37.307 +0530] [32mINFO[39m (21644): [36m[Metrics] Prometheus scrape endpoint started on http://127.0.0.1:9091/metrics[39m
+[10:09:37] 📤 Outgoing MCP message: [2026-04-01 10:09:37.307 +0530] [32mINFO[39m (21644): [36m🚀 MCP Server running on stdio[39m
+
+--- Secure Bridge Session Start: 2026-04-01 10:09:44 ---
+[10:09:44] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[10:09:44] ENV CHECK → RUNTIME_ROLE = admin
+[10:09:44] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[10:09:44] 🔐 Default runtime role: admin
+[10:09:44] ✅ Bridge initialized (firewall disabled)
+[10:09:44] 📊 Dashboard active at http://127.0.0.1:9090
+[10:09:44] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[10:09:44] 📩 Incoming MCP message: initialize
+[10:09:44] ⌛ Bridge active and relaying...
+[10:09:45] 📤 Outgoing MCP message: [2026-04-01 10:09:45.528 +0530] [32mINFO[39m (844): [36m⚠️ SPIFFE disabled — dev mode[39m
+[10:09:45] 🟥 Node stderr: node:events:486
+[10:09:45] 🟥 Node stderr: throw er; // Unhandled 'error' event
+[10:09:45] 🟥 Node stderr: ^
+[10:09:45] 🟥 Node stderr: Error: listen EADDRINUSE: address already in use 0.0.0.0:9091
+[10:09:45] 🟥 Node stderr: at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+[10:09:45] 🟥 Node stderr: at listenInCluster (node:net:1997:12)
+[10:09:45] 🟥 Node stderr: at node:net:2206:7
+[10:09:45] 🟥 Node stderr: at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[10:09:45] 🟥 Node stderr: Emitted 'error' event on Server instance at:
+[10:09:45] 🟥 Node stderr: at emitErrorNT (node:net:1976:8)
+[10:09:45] 🟥 Node stderr: at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+[10:09:45] 🟥 Node stderr: code: 'EADDRINUSE',
+[10:09:45] 🟥 Node stderr: errno: -4091,
+[10:09:45] 🟥 Node stderr: syscall: 'listen',
+[10:09:45] 🟥 Node stderr: address: '0.0.0.0',
+[10:09:45] 🟥 Node stderr: port: 9091
+[10:09:45] 🟥 Node stderr: }
+[10:09:45] 🟥 Node stderr: Node.js v24.13.1
+[10:09:45] 🏁 Server exited with code 1
+[10:10:26] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-04-01 10:14:43 ---
+[10:14:43] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[10:14:43] ENV CHECK → RUNTIME_ROLE = admin
+[10:14:43] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[10:14:43] 🔐 Default runtime role: admin
+[10:14:43] ✅ Bridge initialized (firewall disabled)
+[10:14:43] 📊 Dashboard active at http://127.0.0.1:9090
+[10:14:43] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[10:14:43] 📩 Incoming MCP message: initialize
+[10:14:43] ⌛ Bridge active and relaying...
+[10:14:44] 📤 Outgoing MCP message: [2026-04-01 10:14:44.232 +0530] [32mINFO[39m (29652): [36m⚠️ SPIFFE disabled — dev mode[39m
+[10:14:44] 🟥 Node stderr: node:events:486
+[10:14:44] 🟥 Node stderr: throw er; // Unhandled 'error' event
+[10:14:44] 🟥 Node stderr: ^
+[10:14:44] 🟥 Node stderr: Error: listen EADDRINUSE: address already in use 0.0.0.0:9091
+[10:14:44] 🟥 Node stderr: at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+[10:14:44] 🟥 Node stderr: at listenInCluster (node:net:1997:12)
+[10:14:44] 🟥 Node stderr: at node:net:2206:7
+[10:14:44] 🟥 Node stderr: at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[10:14:44] 🟥 Node stderr: Emitted 'error' event on Server instance at:
+[10:14:44] 🟥 Node stderr: at emitErrorNT (node:net:1976:8)
+[10:14:44] 🟥 Node stderr: at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+[10:14:44] 🟥 Node stderr: code: 'EADDRINUSE',
+[10:14:44] 🟥 Node stderr: errno: -4091,
+[10:14:44] 🟥 Node stderr: syscall: 'listen',
+[10:14:44] 🟥 Node stderr: address: '0.0.0.0',
+[10:14:44] 🟥 Node stderr: port: 9091
+[10:14:44] 🟥 Node stderr: }
+[10:14:44] 🟥 Node stderr: Node.js v24.13.1
+[10:14:44] 🏁 Server exited with code 1
+
+--- Secure Bridge Session Start: 2026-04-01 10:47:39 ---
+[10:47:39] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[10:47:39] ENV CHECK → RUNTIME_ROLE = admin
+[10:47:39] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[10:47:39] 🔐 Default runtime role: admin
+[10:47:39] ✅ Bridge initialized (firewall disabled)
+[10:47:39] 📊 Dashboard active at http://127.0.0.1:9090
+[10:47:39] 🚀 Launching MCP Server: node C:\Users\Lenovo\Desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[10:47:39] ⌛ Bridge active and relaying...
+[10:47:39] 🟥 Node stderr: node:events:486
+[10:47:39] 🟥 Node stderr: throw er; // Unhandled 'error' event
+[10:47:39] 🟥 Node stderr: ^
+[10:47:39] 🟥 Node stderr: Error: listen EADDRINUSE: address already in use 0.0.0.0:9092
+[10:47:39] 🟥 Node stderr: at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+[10:47:39] 🟥 Node stderr: at listenInCluster (node:net:1997:12)
+[10:47:39] 🟥 Node stderr: at node:net:2206:7
+[10:47:39] 🟥 Node stderr: at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[10:47:39] 🟥 Node stderr: Emitted 'error' event on Server instance at:
+[10:47:39] 🟥 Node stderr: at emitErrorNT (node:net:1976:8)
+[10:47:39] 🟥 Node stderr: at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+[10:47:39] 🟥 Node stderr: code: 'EADDRINUSE',
+[10:47:39] 🟥 Node stderr: errno: -4091,
+[10:47:39] 🟥 Node stderr: syscall: 'listen',
+[10:47:39] 🟥 Node stderr: address: '0.0.0.0',
+[10:47:39] 🟥 Node stderr: port: 9092
+[10:47:39] 🟥 Node stderr: }
+[10:47:39] 🟥 Node stderr: Node.js v24.13.1
+[10:47:39] 🏁 Server exited with code 1
+
+--- Secure Bridge Session Start: 2026-04-01 10:50:04 ---
+[10:50:04] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[10:50:04] ENV CHECK → RUNTIME_ROLE = admin
+[10:50:04] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[10:50:04] 🔐 Default runtime role: admin
+[10:50:04] ✅ Bridge initialized (firewall disabled)
+[10:50:04] 📊 Dashboard active at http://127.0.0.1:9090
+[10:50:04] 🚀 Launching MCP Server: node C:\Users\Lenovo\Desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[10:50:04] ⌛ Bridge active and relaying...
+[10:50:04] 🟥 Node stderr: [Metrics] running on http://127.0.0.1:9092/metrics
+
+--- Secure Bridge Session Start: 2026-04-01 10:50:13 ---
+[10:50:13] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[10:50:13] ENV CHECK → RUNTIME_ROLE = admin
+[10:50:13] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[10:50:13] 🔐 Default runtime role: admin
+[10:50:13] ✅ Bridge initialized (firewall disabled)
+[10:50:13] 📊 Dashboard active at http://127.0.0.1:9090
+[10:50:13] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[10:50:13] 📩 Incoming MCP message: initialize
+[10:50:13] ⌛ Bridge active and relaying...
+[10:50:14] 🟥 Node stderr: node:events:486
+[10:50:14] 🟥 Node stderr: throw er; // Unhandled 'error' event
+[10:50:14] 🟥 Node stderr: ^
+[10:50:14] 🟥 Node stderr: Error: listen EADDRINUSE: address already in use 0.0.0.0:9092
+[10:50:14] 🟥 Node stderr: at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+[10:50:14] 🟥 Node stderr: at listenInCluster (node:net:1997:12)
+[10:50:14] 🟥 Node stderr: at node:net:2206:7
+[10:50:14] 🟥 Node stderr: at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[10:50:14] 🟥 Node stderr: Emitted 'error' event on Server instance at:
+[10:50:14] 🟥 Node stderr: at emitErrorNT (node:net:1976:8)
+[10:50:14] 🟥 Node stderr: at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+[10:50:14] 🟥 Node stderr: code: 'EADDRINUSE',
+[10:50:14] 🟥 Node stderr: errno: -4091,
+[10:50:14] 🟥 Node stderr: syscall: 'listen',
+[10:50:14] 🟥 Node stderr: address: '0.0.0.0',
+[10:50:14] 🟥 Node stderr: port: 9092
+[10:50:14] 🟥 Node stderr: }
+[10:50:14] 🟥 Node stderr: Node.js v24.13.1
+[10:50:14] 🏁 Server exited with code 1
+[10:51:46] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-04-01 11:01:46 ---
+[11:01:46] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[11:01:46] ENV CHECK → RUNTIME_ROLE = admin
+[11:01:46] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[11:01:46] 🔐 Default runtime role: admin
+[11:01:46] ✅ Bridge initialized (firewall disabled)
+[11:01:46] 📊 Dashboard active at http://127.0.0.1:9090
+[11:01:46] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[11:01:46] ⌛ Bridge active and relaying...
+[11:01:46] 🟥 Node stderr: [Metrics] running on http://127.0.0.1:9092/metrics
+
+--- Secure Bridge Session Start: 2026-04-01 11:02:01 ---
+[11:02:01] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[11:02:01] ENV CHECK → RUNTIME_ROLE = admin
+[11:02:01] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[11:02:01] 🔐 Default runtime role: admin
+[11:02:01] ✅ Bridge initialized (firewall disabled)
+[11:02:01] 📊 Dashboard active at http://127.0.0.1:9090
+[11:02:01] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[11:02:01] 📩 Incoming MCP message: initialize
+[11:02:01] ⌛ Bridge active and relaying...
+[11:02:02] 🟥 Node stderr: node:events:486
+[11:02:02] 🟥 Node stderr: throw er; // Unhandled 'error' event
+[11:02:02] 🟥 Node stderr: ^
+[11:02:02] 🟥 Node stderr: Error: listen EADDRINUSE: address already in use 0.0.0.0:9092
+[11:02:02] 🟥 Node stderr: at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+[11:02:02] 🟥 Node stderr: at listenInCluster (node:net:1997:12)
+[11:02:02] 🟥 Node stderr: at node:net:2206:7
+[11:02:02] 🟥 Node stderr: at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[11:02:02] 🟥 Node stderr: Emitted 'error' event on Server instance at:
+[11:02:02] 🟥 Node stderr: at emitErrorNT (node:net:1976:8)
+[11:02:02] 🟥 Node stderr: at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+[11:02:02] 🟥 Node stderr: code: 'EADDRINUSE',
+[11:02:02] 🟥 Node stderr: errno: -4091,
+[11:02:02] 🟥 Node stderr: syscall: 'listen',
+[11:02:02] 🟥 Node stderr: address: '0.0.0.0',
+[11:02:02] 🟥 Node stderr: port: 9092
+[11:02:02] 🟥 Node stderr: }
+[11:02:02] 🟥 Node stderr: Node.js v24.13.1
+[11:02:02] 🏁 Server exited with code 1
+[11:08:04] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-04-01 11:08:16 ---
+[11:08:16] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[11:08:16] ENV CHECK → RUNTIME_ROLE = admin
+[11:08:16] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[11:08:16] 🔐 Default runtime role: admin
+[11:08:16] ✅ Bridge initialized (firewall disabled)
+[11:08:16] 📊 Dashboard active at http://127.0.0.1:9090
+[11:08:16] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[11:08:16] ⌛ Bridge active and relaying...
+[11:08:17] 🟥 Node stderr: [Metrics] running on http://127.0.0.1:9092/metrics
+[11:08:33] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-04-01 11:08:35 ---
+[11:08:35] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[11:08:35] ENV CHECK → RUNTIME_ROLE = admin
+[11:08:35] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[11:08:35] 🔐 Default runtime role: admin
+[11:08:35] ✅ Bridge initialized (firewall disabled)
+[11:08:35] 📊 Dashboard active at http://127.0.0.1:9090
+[11:08:35] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[11:08:35] ⌛ Bridge active and relaying...
+[11:08:36] 🟥 Node stderr: [Metrics] running on http://127.0.0.1:9092/metrics
+[11:08:39] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-04-01 11:08:42 ---
+[11:08:42] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[11:08:42] ENV CHECK → RUNTIME_ROLE = admin
+[11:08:42] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[11:08:42] 🔐 Default runtime role: admin
+[11:08:42] ✅ Bridge initialized (firewall disabled)
+[11:08:42] 📊 Dashboard active at http://127.0.0.1:9090
+[11:08:42] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[11:08:42] ⌛ Bridge active and relaying...
+[11:08:42] 🟥 Node stderr: [Metrics] running on http://127.0.0.1:9092/metrics
+[11:11:26] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-04-01 11:11:42 ---
+[11:11:42] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[11:11:42] ENV CHECK → RUNTIME_ROLE = admin
+[11:11:42] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[11:11:42] 🔐 Default runtime role: admin
+[11:11:42] ✅ Bridge initialized (firewall disabled)
+[11:11:42] 📊 Dashboard active at http://127.0.0.1:9090
+[11:11:42] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[11:11:42] ⌛ Bridge active and relaying...
+[11:11:43] 🟥 Node stderr: [Metrics] running on http://127.0.0.1:9092/metrics
+
+--- Secure Bridge Session Start: 2026-04-01 11:19:46 ---
+[11:19:46] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[11:19:46] ENV CHECK → RUNTIME_ROLE = admin
+[11:19:46] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[11:19:46] 🔐 Default runtime role: admin
+[11:19:46] ✅ Bridge initialized (firewall disabled)
+[11:19:46] 📊 Dashboard active at http://127.0.0.1:9090
+[11:19:46] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[11:19:46] 📩 Incoming MCP message: initialize
+[11:19:46] ⌛ Bridge active and relaying...
+[11:19:47] 🟥 Node stderr: node:events:486
+[11:19:47] 🟥 Node stderr: throw er; // Unhandled 'error' event
+[11:19:47] 🟥 Node stderr: ^
+[11:19:47] 🟥 Node stderr: Error: listen EADDRINUSE: address already in use 0.0.0.0:9092
+[11:19:47] 🟥 Node stderr: at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+[11:19:47] 🟥 Node stderr: at listenInCluster (node:net:1997:12)
+[11:19:47] 🟥 Node stderr: at node:net:2206:7
+[11:19:47] 🟥 Node stderr: at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[11:19:47] 🟥 Node stderr: Emitted 'error' event on Server instance at:
+[11:19:47] 🟥 Node stderr: at emitErrorNT (node:net:1976:8)
+[11:19:47] 🟥 Node stderr: at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+[11:19:47] 🟥 Node stderr: code: 'EADDRINUSE',
+[11:19:47] 🟥 Node stderr: errno: -4091,
+[11:19:47] 🟥 Node stderr: syscall: 'listen',
+[11:19:47] 🟥 Node stderr: address: '0.0.0.0',
+[11:19:47] 🟥 Node stderr: port: 9092
+[11:19:47] 🟥 Node stderr: }
+[11:19:47] 🟥 Node stderr: Node.js v24.13.1
+[11:19:47] 🏁 Server exited with code 1
+[11:23:34] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-04-01 11:26:15 ---
+[11:26:15] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[11:26:15] ENV CHECK → RUNTIME_ROLE = admin
+[11:26:15] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[11:26:15] 🔐 Default runtime role: admin
+[11:26:15] ✅ Bridge initialized (firewall disabled)
+[11:26:15] 📊 Dashboard active at http://127.0.0.1:9090
+[11:26:15] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[11:26:15] ⌛ Bridge active and relaying...
+[11:26:15] ✅ Bridge running... waiting for MCP requests
+[11:26:15] 🟥 Node stderr: [Metrics] running on http://127.0.0.1:9092/metrics
+[11:27:19] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-04-01 11:27:39 ---
+[11:27:39] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[11:27:39] ENV CHECK → RUNTIME_ROLE = admin
+[11:27:39] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[11:27:39] 🔐 Default runtime role: admin
+[11:27:39] ✅ Bridge initialized (firewall disabled)
+[11:27:39] 📊 Dashboard active at http://127.0.0.1:9090
+[11:27:39] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[11:27:39] ⌛ Bridge active and relaying...
+[11:27:39] ✅ Bridge running... waiting for MCP requests
+[11:27:39] 🟥 Node stderr: [Metrics] running on http://127.0.0.1:9092/metrics
+[11:28:55] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-04-01 11:28:57 ---
+[11:28:57] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[11:28:57] ENV CHECK → RUNTIME_ROLE = admin
+[11:28:57] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[11:28:57] 🔐 Default runtime role: admin
+[11:28:57] ✅ Bridge initialized (firewall disabled)
+[11:28:57] 📊 Dashboard active at http://127.0.0.1:9090
+[11:28:57] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[11:28:57] ⌛ Bridge active and relaying...
+[11:28:57] ✅ Bridge running... waiting for MCP requests
+[11:28:58] 🟥 Node stderr: [Metrics] running on http://127.0.0.1:9092/metrics
+[11:30:56] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-04-01 11:30:58 ---
+[11:30:58] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[11:30:58] ENV CHECK → RUNTIME_ROLE = admin
+[11:30:58] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[11:30:58] 🔐 Default runtime role: admin
+[11:30:58] ✅ Bridge initialized (firewall disabled)
+[11:30:58] 📊 Dashboard active at http://127.0.0.1:9090
+[11:30:58] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[11:30:58] ⌛ Bridge active and relaying...
+[11:30:58] ✅ Bridge running... waiting for MCP requests
+[11:30:59] 🟥 Node stderr: [Metrics] running on http://127.0.0.1:9092/metrics
+
+--- Secure Bridge Session Start: 2026-04-01 11:31:25 ---
+[11:31:25] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[11:31:25] ENV CHECK → RUNTIME_ROLE = admin
+[11:31:25] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[11:31:25] 🔐 Default runtime role: admin
+[11:31:25] ✅ Bridge initialized (firewall disabled)
+[11:31:25] 📊 Dashboard active at http://127.0.0.1:9090
+[11:31:25] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[11:31:25] ⌛ Bridge active and relaying...
+[11:31:25] ✅ Bridge running... waiting for MCP requests
+[11:31:26] 🟥 Node stderr: node:events:486
+[11:31:26] 🟥 Node stderr: throw er; // Unhandled 'error' event
+[11:31:26] 🟥 Node stderr: ^
+[11:31:26] 🟥 Node stderr: Error: listen EADDRINUSE: address already in use 0.0.0.0:9092
+[11:31:26] 🟥 Node stderr: at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+[11:31:26] 🟥 Node stderr: at listenInCluster (node:net:1997:12)
+[11:31:26] 🟥 Node stderr: at node:net:2206:7
+[11:31:26] 🟥 Node stderr: at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[11:31:26] 🟥 Node stderr: Emitted 'error' event on Server instance at:
+[11:31:26] 🟥 Node stderr: at emitErrorNT (node:net:1976:8)
+[11:31:26] 🟥 Node stderr: at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+[11:31:26] 🟥 Node stderr: code: 'EADDRINUSE',
+[11:31:26] 🟥 Node stderr: errno: -4091,
+[11:31:26] 🟥 Node stderr: syscall: 'listen',
+[11:31:26] 🟥 Node stderr: address: '0.0.0.0',
+[11:31:26] 🟥 Node stderr: port: 9092
+[11:31:26] 🟥 Node stderr: }
+[11:31:26] 🟥 Node stderr: Node.js v24.13.1
+[11:34:49] Cleaning up...
+[11:35:29] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-04-01 11:35:35 ---
+[11:35:35] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[11:35:35] ENV CHECK → RUNTIME_ROLE = admin
+[11:35:35] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[11:35:35] 🔐 Default runtime role: admin
+[11:35:35] ✅ Bridge initialized (firewall disabled)
+[11:35:35] 📊 Dashboard active at http://127.0.0.1:9090
+[11:35:35] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[11:35:35] ⌛ Bridge active and relaying...
+[11:35:35] ✅ Bridge running... waiting for MCP requests
+[11:35:35] 🟥 Node stderr: [Metrics] running on http://127.0.0.1:9100/metrics
+[11:35:47] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-04-01 11:35:52 ---
+[11:35:52] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[11:35:52] ENV CHECK → RUNTIME_ROLE = admin
+[11:35:52] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[11:35:52] 🔐 Default runtime role: admin
+[11:35:52] ✅ Bridge initialized (firewall disabled)
+[11:35:52] 📊 Dashboard active at http://127.0.0.1:9090
+[11:35:52] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[11:35:52] ⌛ Bridge active and relaying...
+[11:35:52] ✅ Bridge running... waiting for MCP requests
+[11:35:53] 🟥 Node stderr: [Metrics] running on http://127.0.0.1:9100/metrics
+[11:41:54] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-04-01 11:42:11 ---
+[11:42:11] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[11:42:11] ENV CHECK → RUNTIME_ROLE = admin
+[11:42:11] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[11:42:11] 🔐 Default runtime role: admin
+[11:42:11] ✅ Bridge initialized (firewall disabled)
+[11:42:11] 📊 Dashboard active at http://127.0.0.1:9200
+[11:42:11] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[11:42:11] ⌛ Bridge active and relaying...
+[11:42:11] ✅ Bridge running... waiting for MCP requests
+[11:42:12] 🟥 Node stderr: [Metrics] running on http://127.0.0.1:9100/metrics
+[11:42:25] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-04-01 11:42:37 ---
+[11:42:37] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[11:42:37] ENV CHECK → RUNTIME_ROLE = admin
+[11:42:37] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[11:42:37] 🔐 Default runtime role: admin
+[11:42:37] ✅ Bridge initialized (firewall disabled)
+[11:42:37] 📊 Dashboard active at http://127.0.0.1:9200
+[11:42:37] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[11:42:37] ⌛ Bridge active and relaying...
+[11:42:37] ✅ Bridge running... waiting for MCP requests
+[11:42:37] 🟥 Node stderr: [Metrics] running on http://127.0.0.1:9100/metrics
+
+--- Secure Bridge Session Start: 2026-04-01 11:43:13 ---
+[11:43:13] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[11:43:13] ENV CHECK → RUNTIME_ROLE = admin
+[11:43:13] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[11:43:13] 🔐 Default runtime role: admin
+[11:43:13] ✅ Bridge initialized (firewall disabled)
+[11:43:13] 📊 Dashboard active at http://127.0.0.1:9090
+[11:43:13] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[11:43:13] ⌛ Bridge active and relaying...
+[11:43:13] ✅ Bridge running... waiting for MCP requests
+[11:43:14] 🟥 Node stderr: node:events:486
+[11:43:14] 🟥 Node stderr: throw er; // Unhandled 'error' event
+[11:43:14] 🟥 Node stderr: ^
+[11:43:14] 🟥 Node stderr: Error: listen EADDRINUSE: address already in use 0.0.0.0:9100
+[11:43:14] 🟥 Node stderr: at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+[11:43:14] 🟥 Node stderr: at listenInCluster (node:net:1997:12)
+[11:43:14] 🟥 Node stderr: at node:net:2206:7
+[11:43:14] 🟥 Node stderr: at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[11:43:14] 🟥 Node stderr: Emitted 'error' event on Server instance at:
+[11:43:14] 🟥 Node stderr: at emitErrorNT (node:net:1976:8)
+[11:43:14] 🟥 Node stderr: at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+[11:43:14] 🟥 Node stderr: code: 'EADDRINUSE',
+[11:43:14] 🟥 Node stderr: errno: -4091,
+[11:43:14] 🟥 Node stderr: syscall: 'listen',
+[11:43:14] 🟥 Node stderr: address: '0.0.0.0',
+[11:43:14] 🟥 Node stderr: port: 9100
+[11:43:14] 🟥 Node stderr: }
+[11:43:14] 🟥 Node stderr: Node.js v24.13.1
+[11:43:52] Cleaning up...
+[11:43:53] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-04-01 11:43:56 ---
+[11:43:56] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[11:43:56] ENV CHECK → RUNTIME_ROLE = admin
+[11:43:56] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[11:43:56] 🔐 Default runtime role: admin
+[11:43:56] ✅ Bridge initialized (firewall disabled)
+[11:43:56] 📊 Dashboard active at http://127.0.0.1:9200
+[11:43:56] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[11:43:56] ⌛ Bridge active and relaying...
+[11:43:56] ✅ Bridge running... waiting for MCP requests
+[11:43:57] 🟥 Node stderr: [Metrics] running on http://127.0.0.1:9100/metrics
+[11:44:35] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-04-01 11:47:03 ---
+[11:47:03] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[11:47:03] ENV CHECK → RUNTIME_ROLE = admin
+[11:47:03] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[11:47:03] 🔐 Default runtime role: admin
+[11:47:03] ✅ Bridge initialized (firewall disabled)
+[11:47:03] 📊 Dashboard active at http://127.0.0.1:9090
+[11:47:03] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[11:47:03] ⌛ Bridge active and relaying...
+[11:47:03] ✅ Bridge running... waiting for MCP requests
+[11:47:04] 🟥 Node stderr: [Metrics] running on http://127.0.0.1:9100/metrics
+[11:47:24] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-04-01 11:50:45 ---
+[11:50:45] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[11:50:45] ENV CHECK → RUNTIME_ROLE = admin
+[11:50:45] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[11:50:45] 🔐 Default runtime role: admin
+[11:50:45] ✅ Bridge initialized (firewall disabled)
+[11:50:45] 📊 Dashboard active at http://127.0.0.1:9090
+[11:50:45] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[11:50:45] ⌛ Bridge active and relaying...
+[11:50:45] ✅ Bridge running... waiting for MCP requests
+[11:50:45] 🟥 Node stderr: [Metrics] running on http://127.0.0.1:9100/metrics
+[11:50:57] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-04-01 11:51:00 ---
+[11:51:00] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[11:51:00] ENV CHECK → RUNTIME_ROLE = admin
+[11:51:00] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[11:51:00] 🔐 Default runtime role: admin
+[11:51:00] ✅ Bridge initialized (firewall disabled)
+[11:51:00] 📊 Dashboard active at http://127.0.0.1:9090
+[11:51:00] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[11:51:00] 🧹 Cleared stale node processes
+[11:51:00] ⌛ Bridge active and relaying...
+[11:51:00] ✅ Bridge running... waiting for MCP requests
+[11:51:01] 🟥 Node stderr: [Metrics] running on http://127.0.0.1:9100/metrics
+[11:51:45] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-04-01 11:51:48 ---
+[11:51:48] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[11:51:48] ENV CHECK → RUNTIME_ROLE = admin
+[11:51:48] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[11:51:48] 🔐 Default runtime role: admin
+[11:51:48] ✅ Bridge initialized (firewall disabled)
+[11:51:48] 📊 Dashboard active at http://127.0.0.1:9090
+[11:51:48] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[11:51:48] 🧹 Cleared stale node processes
+[11:51:48] ⌛ Bridge active and relaying...
+[11:51:48] ✅ Bridge running... waiting for MCP requests
+[11:51:49] 🟥 Node stderr: [Metrics] running on http://127.0.0.1:9100/metrics
+[11:52:39] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-04-01 11:52:59 ---
+[11:52:59] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[11:52:59] ENV CHECK → RUNTIME_ROLE = admin
+[11:52:59] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[11:52:59] 🔐 Default runtime role: admin
+[11:52:59] ✅ Bridge initialized (firewall disabled)
+[11:52:59] 📊 Dashboard active at http://127.0.0.1:9090
+[11:52:59] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[11:52:59] 🧹 Cleared stale node processes
+[11:52:59] 📩 Incoming MCP message: initialize
+[11:52:59] ⌛ Bridge active and relaying...
+[11:52:59] ✅ Bridge running... waiting for MCP requests
+[11:53:00] 🟥 Node stderr: [Metrics] running on http://127.0.0.1:9100/metrics
+[11:53:00] 📩 Incoming MCP message: notifications/initialized
+[11:53:00] 📩 Incoming MCP message: tools/list
+[11:54:32] 📩 Incoming MCP message: tools/call
+[11:54:32] 🔍 Checking tool call: keycloak_list_users
+[11:54:32] ✅ Role allowed: admin can use keycloak_list_users
+
+--- Secure Bridge Session Start: 2026-04-01 11:58:11 ---
+[11:58:11] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[11:58:11] ENV CHECK → RUNTIME_ROLE = admin
+[11:58:11] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[11:58:11] 🔐 Default runtime role: admin
+[11:58:11] ✅ Bridge initialized (firewall disabled)
+[11:58:11] 📊 Dashboard active at http://127.0.0.1:9090
+[11:58:11] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[11:58:11] 🧹 Cleared stale node processes
+[11:58:11] ⌛ Bridge active and relaying...
+[11:58:11] ✅ Bridge running... waiting for MCP requests
+[11:58:12] 💀 Node process exited with code 1. Bridge shutting down.
+[11:58:12] 🟥 Node stderr: [Metrics] running on http://127.0.0.1:9100/metrics
+[11:58:55] Cleaning up...
+
+--- Secure Bridge Session Start: 2026-04-01 12:00:19 ---
+[12:00:19] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[12:00:19] ENV CHECK → RUNTIME_ROLE = admin
+[12:00:19] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[12:00:19] 🔐 Default runtime role: admin
+[12:00:19] ✅ Bridge initialized (firewall disabled)
+[12:00:19] 📊 Dashboard active at http://127.0.0.1:9090
+[12:00:19] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[12:00:19] 🧹 Cleared stale node processes
+
+--- Secure Bridge Session Start: 2026-04-01 12:03:13 ---
+[12:03:13] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[12:03:13] ENV CHECK → RUNTIME_ROLE = admin
+[12:03:13] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[12:03:13] 🔐 Default runtime role: admin
+[12:03:13] ✅ Bridge initialized (firewall disabled)
+[12:03:13] 📊 Dashboard active at http://127.0.0.1:9090
+[12:03:13] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[12:03:14] 🧹 Cleared stale node processes
+[12:03:14] ⌛ Bridge active and relaying...
+[12:03:14] ✅ Bridge running... waiting for MCP requests
+[12:03:14] 🟥 Node stderr: [Metrics] running on http://127.0.0.1:9100/metrics
+
+--- Secure Bridge Session Start: 2026-04-01 12:03:19 ---
+[12:03:19] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[12:03:19] ENV CHECK → RUNTIME_ROLE = admin
+[12:03:19] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[12:03:19] 🔐 Default runtime role: admin
+[12:03:19] ✅ Bridge initialized (firewall disabled)
+[12:03:19] 📊 Dashboard active at http://127.0.0.1:9090
+[12:03:19] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[12:03:20] 🧹 Cleared stale node processes
+[12:03:20] 📩 Incoming MCP message: initialize
+[12:03:20] ⌛ Bridge active and relaying...
+[12:03:20] ✅ Bridge running... waiting for MCP requests
+[12:03:20] 🟥 Node stderr: [Metrics] running on http://127.0.0.1:9100/metrics
+[12:03:20] 📩 Incoming MCP message: notifications/initialized
+[12:03:20] 📩 Incoming MCP message: tools/list
+[12:03:21] 💀 Node process exited with code 1. Bridge shutting down.
+[12:04:02] 📩 Incoming MCP message: tools/call
+[12:04:02] 🔍 Checking tool call: keycloak_list_users
+[12:04:02] ✅ Role allowed: admin can use keycloak_list_users
+[12:04:02] 🗑️ Discarded non-JSON Node stdout: 🔥 TOOL CALLED: list users
+[12:04:02] 🗑️ Discarded non-JSON Node stdout: 🔑 Authenticating with Keycloak...
+[12:04:02] 🗑️ Discarded non-JSON Node stdout: ✅ Keycloak authenticated
+[12:04:44] 📩 Incoming MCP message: tools/call
+[12:04:44] 🔍 Checking tool call: keycloak_revoke_user_sessions
+[12:04:44] ✅ Role allowed: admin can use keycloak_revoke_user_sessions
+[12:04:44] 🗑️ Discarded non-JSON Node stdout: 🔑 Authenticating with Keycloak...
+[12:04:44] 🗑️ Discarded non-JSON Node stdout: ✅ Keycloak authenticated
+
+--- Secure Bridge Session Start: 2026-04-01 13:18:53 ---
+[13:18:53] 🪪 SPIFFE integration enabled (startup validation mode).
+[13:18:53] 🪪 Bridge SPIFFE ID: spiffe://runtime-shield/bridge
+[13:18:53] 🪪 Expected MCP Server SPIFFE ID: spiffe://runtime-shield/keycloak-mcp
+[13:18:53] ⚠️ SPIFFE_SVID_PATH not configured. Continuing without local SVID file validation.
+[13:18:53] ⚠️ SPIFFE_BUNDLE_PATH not configured. Continuing without bundle file validation.
+[13:18:53] ⚠️ Current transport is stdio, so this is not full mTLS SPIFFE authentication.
+[13:18:53] ENV CHECK → RUNTIME_ROLE = admin
+[13:18:53] ENV CHECK → SPIFFE_ENABLED = true
+[13:18:53] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[13:18:53] 🔐 Default runtime role: admin
+[13:18:53] ✅ Bridge initialized (firewall disabled)
+[13:18:53] 📊 Dashboard active at http://127.0.0.1:9090
+[13:18:53] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[13:18:53] 🧹 Cleared stale node processes
+[13:18:53] 💀 Node process exited with code 1. Bridge shutting down.
+
+--- Secure Bridge Session Start: 2026-04-01 14:52:35 ---
+[14:52:35] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[14:52:35] ENV CHECK → RUNTIME_ROLE = admin
+[14:52:35] ENV CHECK → SPIFFE_ENABLED = false
+[14:52:35] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[14:52:35] 🔐 Default runtime role: admin
+[14:52:35] ✅ Bridge initialized (firewall disabled)
+[14:52:35] 📊 Dashboard active at http://127.0.0.1:9090
+[14:52:35] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[14:52:36] 🧹 Cleared stale node processes
+
+--- Secure Bridge Session Start: 2026-04-01 14:52:49 ---
+[14:52:49] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[14:52:49] ENV CHECK → RUNTIME_ROLE = admin
+[14:52:49] ENV CHECK → SPIFFE_ENABLED = false
+[14:52:49] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[14:52:49] 🔐 Default runtime role: admin
+[14:52:49] ✅ Bridge initialized (firewall disabled)
+[14:52:49] 📊 Dashboard active at http://127.0.0.1:9090
+[14:52:49] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[14:52:49] 🧹 Cleared stale node processes
+
+--- Secure Bridge Session Start: 2026-04-01 15:51:25 ---
+[15:51:25] ℹ️ SPIFFE integration disabled. Running with current stdio bridge security.
+[15:51:25] ENV CHECK → RUNTIME_ROLE = admin
+[15:51:25] ENV CHECK → SPIFFE_ENABLED = false
+[15:51:25] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[15:51:25] 🔐 Default runtime role: admin
+[15:51:25] ✅ Bridge initialized (firewall disabled)
+[15:51:25] 📊 Dashboard active at http://127.0.0.1:9090
+[15:51:25] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[15:51:25] 🧹 Cleared stale node processes
+
+--- Secure Bridge Session Start: 2026-04-01 16:34:38 ---
+[16:34:38] 🪪 SPIFFE integration enabled (startup validation mode).
+[16:34:38] 🪪 Bridge SPIFFE ID: spiffe://runtime-shield/bridge
+[16:34:38] 🪪 Expected MCP Server SPIFFE ID: spiffe://runtime-shield/keycloak-mcp
+[16:34:38] ⚠️ SPIFFE_SVID_PATH not configured. Continuing without local SVID file validation.
+[16:34:38] ⚠️ SPIFFE_BUNDLE_PATH not configured. Continuing without bundle file validation.
+[16:34:38] ⚠️ Current transport is stdio, so this is not full mTLS SPIFFE authentication.
+[16:34:38] ENV CHECK → RUNTIME_ROLE = admin
+[16:34:38] ENV CHECK → SPIFFE_ENABLED = true
+[16:34:38] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[16:34:38] 🔐 Default runtime role: admin
+[16:34:38] ✅ Bridge initialized (firewall disabled)
+[16:34:38] 📊 Dashboard active at http://127.0.0.1:9090
+[16:34:38] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[16:34:39] 🧹 Cleared stale node processes
+
+--- Secure Bridge Session Start: 2026-04-01 16:37:22 ---
+[16:37:22] 🪪 SPIFFE integration enabled (startup validation mode).
+[16:37:22] 🪪 Bridge SPIFFE ID: spiffe://runtime-shield/bridge
+[16:37:22] 🪪 Expected MCP Server SPIFFE ID: spiffe://runtime-shield/keycloak-mcp
+[16:37:22] ⚠️ SPIFFE_SVID_PATH not configured. Continuing without local SVID file validation.
+[16:37:22] ⚠️ SPIFFE_BUNDLE_PATH not configured. Continuing without bundle file validation.
+[16:37:22] ⚠️ Current transport is stdio, so this is not full mTLS SPIFFE authentication.
+[16:37:22] ENV CHECK → RUNTIME_ROLE = admin
+[16:37:22] ENV CHECK → SPIFFE_ENABLED = true
+[16:37:22] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[16:37:22] 🔐 Default runtime role: admin
+[16:37:22] ✅ Bridge initialized (firewall disabled)
+[16:37:22] 📊 Dashboard active at http://127.0.0.1:9090
+[16:37:22] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[16:37:22] 📩 Incoming MCP message: initialize
+[16:37:22] ⌛ Bridge active and relaying...
+[16:37:22] ✅ Bridge running... waiting for MCP requests
+[16:37:23] 🟥 Node stderr: [Metrics] running on http://127.0.0.1:9100/metrics
+[16:37:23] 📩 Incoming MCP message: notifications/initialized
+[16:37:23] 📩 Incoming MCP message: tools/list
+
+--- Secure Bridge Session Start: 2026-04-01 16:40:54 ---
+[16:40:54] 🪪 SPIFFE integration enabled (startup validation mode).
+[16:40:54] 🪪 Bridge SPIFFE ID: spiffe://runtime-shield/bridge
+[16:40:54] 🪪 Expected MCP Server SPIFFE ID: spiffe://runtime-shield/keycloak-mcp
+[16:40:54] ⚠️ SPIFFE_SVID_PATH not configured. Continuing without local SVID file validation.
+[16:40:54] ⚠️ SPIFFE_BUNDLE_PATH not configured. Continuing without bundle file validation.
+[16:40:54] ⚠️ Current transport is stdio, so this is not full mTLS SPIFFE authentication.
+[16:40:54] ENV CHECK → RUNTIME_ROLE = admin
+[16:40:54] ENV CHECK → SPIFFE_ENABLED = true
+[16:40:54] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[16:40:54] 🔐 Default runtime role: admin
+[16:40:54] ✅ Bridge initialized (firewall disabled)
+[16:40:54] 📊 Dashboard active at http://127.0.0.1:9090
+[16:40:54] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[16:40:54] 📩 Incoming MCP message: initialize
+[16:40:54] ⌛ Bridge active and relaying...
+[16:40:54] ✅ Bridge running... waiting for MCP requests
+[16:40:55] 🟥 Node stderr: node:events:486
+[16:40:55] 🟥 Node stderr: throw er; // Unhandled 'error' event
+[16:40:55] 🟥 Node stderr: ^
+[16:40:55] 🟥 Node stderr: Error: listen EADDRINUSE: address already in use 0.0.0.0:9100
+[16:40:55] 🟥 Node stderr: at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+[16:40:55] 🟥 Node stderr: at listenInCluster (node:net:1997:12)
+[16:40:55] 🟥 Node stderr: at node:net:2206:7
+[16:40:55] 🟥 Node stderr: at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[16:40:55] 🟥 Node stderr: Emitted 'error' event on Server instance at:
+[16:40:55] 🟥 Node stderr: at emitErrorNT (node:net:1976:8)
+[16:40:55] 🟥 Node stderr: at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+[16:40:55] 🟥 Node stderr: code: 'EADDRINUSE',
+[16:40:55] 🟥 Node stderr: errno: -4091,
+[16:40:55] 🟥 Node stderr: syscall: 'listen',
+[16:40:55] 🟥 Node stderr: address: '0.0.0.0',
+[16:40:55] 🟥 Node stderr: port: 9100
+[16:40:55] 🟥 Node stderr: }
+[16:40:55] 🟥 Node stderr: Node.js v24.13.1
+[16:40:55] 💀 Node process exited with code 1. Bridge shutting down.
+
+--- Secure Bridge Session Start: 2026-04-01 16:44:03 ---
+[16:44:03] 🪪 SPIFFE integration enabled (startup validation mode).
+[16:44:03] 🪪 Bridge SPIFFE ID: spiffe://runtime-shield/bridge
+[16:44:03] 🪪 Expected MCP Server SPIFFE ID: spiffe://runtime-shield/keycloak-mcp
+[16:44:03] ⚠️ SPIFFE_SVID_PATH not configured. Continuing without local SVID file validation.
+[16:44:03] ⚠️ SPIFFE_BUNDLE_PATH not configured. Continuing without bundle file validation.
+[16:44:03] ⚠️ Current transport is stdio, so this is not full mTLS SPIFFE authentication.
+[16:44:03] ENV CHECK → RUNTIME_ROLE = admin
+[16:44:03] ENV CHECK → SPIFFE_ENABLED = true
+[16:44:03] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[16:44:03] 🔐 Default runtime role: admin
+[16:44:03] ✅ Bridge initialized (firewall disabled)
+[16:44:03] 📊 Dashboard active at http://127.0.0.1:9090
+[16:44:03] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[16:44:04] 🧹 Freed port :9100 (PID 15420)
+[16:44:04] 📩 Incoming MCP message: initialize
+[16:44:04] ⌛ Bridge active and relaying...
+[16:44:04] ✅ Bridge running... waiting for MCP requests
+[16:44:04] 🟥 Node stderr: [Metrics] running on http://127.0.0.1:9100/metrics
+[16:44:04] 📩 Incoming MCP message: notifications/initialized
+[16:44:04] 📩 Incoming MCP message: tools/list
+
+--- Secure Bridge Session Start: 2026-04-01 16:46:23 ---
+[16:46:23] 🪪 SPIFFE integration enabled (startup validation mode).
+[16:46:23] 🪪 Bridge SPIFFE ID: spiffe://runtime-shield/bridge
+[16:46:23] 🪪 Expected MCP Server SPIFFE ID: spiffe://runtime-shield/keycloak-mcp
+[16:46:23] ⚠️ SPIFFE_SVID_PATH not configured. Continuing without local SVID file validation.
+[16:46:23] ⚠️ SPIFFE_BUNDLE_PATH not configured. Continuing without bundle file validation.
+[16:46:23] ⚠️ Current transport is stdio, so this is not full mTLS SPIFFE authentication.
+[16:46:23] ENV CHECK → RUNTIME_ROLE = admin
+[16:46:23] ENV CHECK → SPIFFE_ENABLED = true
+[16:46:23] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[16:46:23] 🔐 Default runtime role: admin
+[16:46:23] ✅ Bridge initialized (firewall disabled)
+[16:46:23] 📊 Dashboard active at http://127.0.0.1:9090
+[16:46:23] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[16:46:23] 🧹 Freed port :9100 (PID 10400)
+[16:46:23] 📩 Incoming MCP message: initialize
+[16:46:23] ⌛ Bridge active and relaying...
+[16:46:23] ✅ Bridge running... waiting for MCP requests
+[16:46:24] 🟥 Node stderr: [Metrics] running on http://127.0.0.1:9100/metrics
+[16:46:24] 📩 Incoming MCP message: notifications/initialized
+[16:46:24] 📩 Incoming MCP message: tools/list
+[16:46:24] 🗑️ Discarded non-JSON Node stdout: [2026-04-01 16:46:24.392 +0530] [32mINFO[39m (34028): [36m[SPIFFE] Initializing SPIFFE Auth with endpoint: unix:///tmp/spire-agent/public/api.sock[39m
+[16:46:24] 🗑️ Discarded non-JSON Node stdout: [2026-04-01 16:46:24.392 +0530] [31mERROR[39m (34028): [36m[SPIFFE] CRITICAL: SPIRE Agent socket not found at /tmp/spire-agent/public/api.sock. The MCP server will fail to verify identities.[39m
+
+--- Secure Bridge Session Start: 2026-04-01 16:51:42 ---
+[16:51:42] 🪪 SPIFFE integration enabled (startup validation mode).
+[16:51:42] 🪪 Bridge SPIFFE ID: spiffe://runtime-shield/bridge
+[16:51:42] 🪪 Expected MCP Server SPIFFE ID: spiffe://runtime-shield/keycloak-mcp
+[16:51:42] ⚠️ SPIFFE_SVID_PATH not configured. Continuing without local SVID file validation.
+[16:51:42] ⚠️ SPIFFE_BUNDLE_PATH not configured. Continuing without bundle file validation.
+[16:51:42] ⚠️ Current transport is stdio, so this is not full mTLS SPIFFE authentication.
+[16:51:42] ENV CHECK → RUNTIME_ROLE = admin
+[16:51:42] ENV CHECK → SPIFFE_ENABLED = true
+[16:51:42] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[16:51:42] 🔐 Default runtime role: admin
+[16:51:42] ✅ Bridge initialized (firewall disabled)
+[16:51:42] 📊 Dashboard active at http://127.0.0.1:9090
+[16:51:42] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[16:51:42] 🧹 Freed port :9100 (PID 34028)
+[16:51:42] 📩 Incoming MCP message: initialize
+[16:51:42] ⌛ Bridge active and relaying...
+[16:51:42] ✅ Bridge running... waiting for MCP requests
+[16:51:43] 🟥 Node stderr: [Metrics] running on http://127.0.0.1:9100/metrics
+[16:51:43] 📩 Incoming MCP message: notifications/initialized
+[16:51:43] 📩 Incoming MCP message: tools/list
+[16:54:41] 📩 Incoming MCP message: tools/call
+[16:54:41] 🔍 Checking tool call: keycloak_list_users
+[16:54:41] ✅ Role allowed: admin can use keycloak_list_users
+
+--- Secure Bridge Session Start: 2026-04-01 16:59:32 ---
+[16:59:32] 🪪 SPIFFE integration enabled (startup validation mode).
+[16:59:32] 🪪 Bridge SPIFFE ID: spiffe://runtime-shield/bridge
+[16:59:32] 🪪 Expected MCP Server SPIFFE ID: spiffe://runtime-shield/keycloak-mcp
+[16:59:32] ⚠️ SPIFFE_SVID_PATH not configured. Continuing without local SVID file validation.
+[16:59:32] ⚠️ SPIFFE_BUNDLE_PATH not configured. Continuing without bundle file validation.
+[16:59:32] ⚠️ Current transport is stdio, so this is not full mTLS SPIFFE authentication.
+[16:59:32] ENV CHECK → RUNTIME_ROLE = admin
+[16:59:32] ENV CHECK → SPIFFE_ENABLED = true
+[16:59:32] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[16:59:32] 🔐 Default runtime role: admin
+[16:59:32] ✅ Bridge initialized (firewall disabled)
+[16:59:32] 📊 Dashboard active at http://127.0.0.1:9090
+[16:59:32] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[16:59:32] 🧹 Freed port :9100 (PID 18072)
+[16:59:32] 📩 Incoming MCP message: initialize
+[16:59:32] ⌛ Bridge active and relaying...
+[16:59:32] ✅ Bridge running... waiting for MCP requests
+[16:59:33] 🟥 Node stderr: [Metrics] running on http://127.0.0.1:9100/metrics
+[16:59:33] 📩 Incoming MCP message: notifications/initialized
+[16:59:33] 📩 Incoming MCP message: tools/list
+[17:00:24] 📩 Incoming MCP message: tools/call
+[17:00:24] 🔍 Checking tool call: keycloak_list_users
+[17:00:24] ✅ Role allowed: admin can use keycloak_list_users
+
+--- Secure Bridge Session Start: 2026-04-01 17:02:16 ---
+[17:02:16] 🪪 SPIFFE integration enabled (startup validation mode).
+[17:02:16] 🪪 Bridge SPIFFE ID: spiffe://runtime-shield/bridge
+[17:02:16] 🪪 Expected MCP Server SPIFFE ID: spiffe://runtime-shield/keycloak-mcp
+[17:02:16] ⚠️ SPIFFE_SVID_PATH not configured. Continuing without local SVID file validation.
+[17:02:16] ⚠️ SPIFFE_BUNDLE_PATH not configured. Continuing without bundle file validation.
+[17:02:16] ⚠️ Current transport is stdio, so this is not full mTLS SPIFFE authentication.
+[17:02:16] ENV CHECK → RUNTIME_ROLE = admin
+[17:02:16] ENV CHECK → SPIFFE_ENABLED = true
+[17:02:16] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[17:02:16] 🔐 Default runtime role: admin
+[17:02:16] ✅ Bridge initialized (firewall disabled)
+[17:02:16] 📊 Dashboard active at http://127.0.0.1:9090
+[17:02:16] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[17:02:16] 🧹 Freed port :9100 (PID 18732)
+[17:02:16] 📩 Incoming MCP message: initialize
+[17:02:16] ⌛ Bridge active and relaying...
+[17:02:16] ✅ Bridge running... waiting for MCP requests
+[17:02:17] 🟥 Node stderr: [Metrics] running on http://127.0.0.1:9100/metrics
+[17:02:17] 📩 Incoming MCP message: notifications/initialized
+[17:02:17] 📩 Incoming MCP message: tools/list
+[17:02:41] 📩 Incoming MCP message: tools/call
+[17:02:41] 🔍 Checking tool call: keycloak_list_users
+[17:02:41] ✅ Role allowed: admin can use keycloak_list_users
+
+--- Secure Bridge Session Start: 2026-04-01 17:20:35 ---
+[17:20:35] 🪪 SPIFFE integration enabled (startup validation mode).
+[17:20:35] 🪪 Bridge SPIFFE ID: spiffe://runtime-shield/bridge
+[17:20:35] 🪪 Expected MCP Server SPIFFE ID: spiffe://runtime-shield/keycloak-mcp
+[17:20:35] ⚠️ SPIFFE_SVID_PATH not configured. Continuing without local SVID file validation.
+[17:20:35] ⚠️ SPIFFE_BUNDLE_PATH not configured. Continuing without bundle file validation.
+[17:20:35] ⚠️ Current transport is stdio, so this is not full mTLS SPIFFE authentication.
+[17:20:35] ENV CHECK → RUNTIME_ROLE = admin
+[17:20:35] ENV CHECK → SPIFFE_ENABLED = true
+[17:20:35] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[17:20:35] 🔐 Default runtime role: admin
+[17:20:35] ✅ Bridge initialized (firewall disabled)
+[17:20:35] 📊 Dashboard active at http://127.0.0.1:9090
+[17:20:35] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[17:20:36] 🧹 Freed port :9100 (PID 16328)
+[17:20:36] 📩 Incoming MCP message: initialize
+[17:20:36] ⌛ Bridge active and relaying...
+[17:20:36] ✅ Bridge running... waiting for MCP requests
+[17:20:37] 🟥 Node stderr: [Metrics] running on http://127.0.0.1:9100/metrics
+[17:20:37] 📩 Incoming MCP message: notifications/initialized
+[17:20:37] 📩 Incoming MCP message: tools/list
+[17:21:39] 📩 Incoming MCP message: tools/call
+[17:21:39] 🔍 Checking tool call: keycloak_revoke_user_sessions
+[17:21:39] ✅ Role allowed: admin can use keycloak_revoke_user_sessions
+
+--- Secure Bridge Session Start: 2026-04-01 17:22:40 ---
+[17:22:40] 🪪 SPIFFE integration enabled (startup validation mode).
+[17:22:40] 🪪 Bridge SPIFFE ID: spiffe://runtime-shield/bridge
+[17:22:40] 🪪 Expected MCP Server SPIFFE ID: spiffe://runtime-shield/keycloak-mcp
+[17:22:40] ⚠️ SPIFFE_SVID_PATH not configured. Continuing without local SVID file validation.
+[17:22:40] ⚠️ SPIFFE_BUNDLE_PATH not configured. Continuing without bundle file validation.
+[17:22:40] ⚠️ Current transport is stdio, so this is not full mTLS SPIFFE authentication.
+[17:22:40] ENV CHECK → RUNTIME_ROLE = guest
+[17:22:40] ENV CHECK → SPIFFE_ENABLED = true
+[17:22:40] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[17:22:40] 🔐 Default runtime role: guest
+[17:22:40] ✅ Bridge initialized (firewall disabled)
+[17:22:40] 📊 Dashboard active at http://127.0.0.1:9090
+[17:22:40] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[17:22:40] 🧹 Freed port :9100 (PID 25888)
+[17:22:40] 📩 Incoming MCP message: initialize
+[17:22:40] ⌛ Bridge active and relaying...
+[17:22:40] ✅ Bridge running... waiting for MCP requests
+[17:22:41] 🟥 Node stderr: [Metrics] running on http://127.0.0.1:9100/metrics
+[17:22:41] 📩 Incoming MCP message: notifications/initialized
+[17:22:41] 📩 Incoming MCP message: tools/list
+[17:23:14] 📩 Incoming MCP message: tools/call
+[17:23:14] 🔍 Checking tool call: keycloak_revoke_user_sessions
+[17:23:14] 🚫 Role violation: guest cannot use keycloak_revoke_user_sessions
+[17:23:20] 📩 Incoming MCP message: tools/call
+[17:23:20] 🔍 Checking tool call: keycloak_list_users
+[17:23:20] ✅ Role allowed: guest can use keycloak_list_users
+
+--- Secure Bridge Session Start: 2026-04-01 22:56:31 ---
+[22:56:31] 🪪 SPIFFE integration enabled (startup validation mode).
+[22:56:31] 🪪 Bridge SPIFFE ID: spiffe://runtime-shield/bridge
+[22:56:31] 🪪 Expected MCP Server SPIFFE ID: spiffe://runtime-shield/keycloak-mcp
+[22:56:31] ✅ SPIFFE SVID found at: C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\./spiffe-certs/svid.pem
+[22:56:31] ✅ SPIFFE trust bundle found at: C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\./spiffe-certs/bundle.pem
+[22:56:31] ⚠️ Current transport is stdio, so this is not full mTLS SPIFFE authentication.
+[22:56:31] ENV CHECK → RUNTIME_ROLE = None
+[22:56:31] ENV CHECK → SPIFFE_ENABLED = true
+[22:56:31] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[22:56:31] 🔐 Default runtime role: analyst
+[22:56:31] ✅ Bridge initialized (firewall disabled)
+[22:56:31] 📊 Dashboard active at http://127.0.0.1:9090
+[22:56:31] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[22:56:32] 🧹 Freed port :9100 (PID 35328)
+[22:56:32] 🧹 Freed port :9090 (PID 15136)
+[22:56:32] ⌛ Bridge active and relaying...
+[22:56:32] ✅ Bridge running... waiting for MCP requests
+[22:56:35] 🟥 Node stderr: [Metrics] running on http://127.0.0.1:9100/metrics
+
+--- Secure Bridge Session Start: 2026-04-01 22:58:06 ---
+[22:58:06] 🪪 SPIFFE integration enabled (startup validation mode).
+[22:58:06] 🪪 Bridge SPIFFE ID: spiffe://runtime-shield/bridge
+[22:58:06] 🪪 Expected MCP Server SPIFFE ID: spiffe://runtime-shield/keycloak-mcp
+[22:58:06] ✅ SPIFFE SVID found at: C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\./spiffe-certs/svid.pem
+[22:58:06] ✅ SPIFFE trust bundle found at: C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\./spiffe-certs/bundle.pem
+[22:58:06] ⚠️ Current transport is stdio, so this is not full mTLS SPIFFE authentication.
+[22:58:06] ENV CHECK → RUNTIME_ROLE = None
+[22:58:06] ENV CHECK → SPIFFE_ENABLED = true
+[22:58:06] Starting Secure Bridge. Python: C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\python.exe
+[22:58:06] 🔐 Default runtime role: analyst
+[22:58:06] ✅ Bridge initialized (firewall disabled)
+[22:58:06] 📊 Dashboard active at http://127.0.0.1:9090
+[22:58:06] 🚀 Launching MCP Server: node C:\Users\Lenovo\desktop\Runtime-shield-for-agentic-systems\dist\index.js
+[22:58:06] 🧹 Freed port :9100 (PID 32732)
+[22:58:06] ⌛ Bridge active and relaying...
+[22:58:06] ✅ Bridge running... waiting for MCP requests
+[22:58:07] 🟥 Node stderr: [Metrics] running on http://127.0.0.1:9100/metrics
+[22:59:22] Cleaning up...

@@ -1,32 +1,28 @@
 import * as client from "prom-client";
 import http from "http";
-import { logger } from "./logger";
 
-// Initialize Prometheus registry
-const Registry = client.Registry;
-export const register = new Registry();
-
-// Collect default metrics (memory, CPU, etc.)
+// Registry
+export const register = new client.Registry();
 client.collectDefaultMetrics({ register });
 
-// Custom Metrics
+// Metrics
 export const spiffeVerificationRequestsTotal = new client.Counter({
   name: "spiffe_verification_requests_total",
   help: "Total number of SPIFFE identity verification requests",
-  labelNames: ["status"],
+  labelNames: ["status"]
 });
 
 export const spiffeVerificationDurationSeconds = new client.Histogram({
   name: "spiffe_verification_duration_seconds",
   help: "Duration of SPIFFE identity verifications in seconds",
-  buckets: [0.01, 0.05, 0.1, 0.5, 1, 2, 5],
+  buckets: [0.01, 0.05, 0.1, 0.5, 1, 2, 5]
 });
 
 register.registerMetric(spiffeVerificationRequestsTotal);
 register.registerMetric(spiffeVerificationDurationSeconds);
 
-// Lightweight HTTP server to expose /metrics
-export function startMetricsServer(port = Number(process.env.METRICS_PORT || 9091)) {
+// ✅ MCP SAFE
+export function startMetricsServer(port = Number(process.env.METRICS_PORT || 9092)) {
   const server = http.createServer(async (req, res) => {
     if (req.url === "/metrics") {
       res.setHeader("Content-Type", register.contentType);
@@ -38,7 +34,8 @@ export function startMetricsServer(port = Number(process.env.METRICS_PORT || 909
   });
 
   server.listen(port, "0.0.0.0", () => {
-    logger.info(`[Metrics] Prometheus scrape endpoint started on http://127.0.0.1:${port}/metrics`);
+    // ✅ SAFE → stderr
+    console.error(`[Metrics] running on http://127.0.0.1:${port}/metrics`);
   });
 
   return server;
